@@ -48,8 +48,8 @@ export default function SiteShell({ locale, dict, children }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navLinks = mainNavLinks(locale, dict);
   const secondaryLinks = secondaryNavLinks(locale, dict);
-  const consultationHref = href(locale, "contact");
-  const rfqHref = `${href(locale, "contact")}#rfq`;
+  const consultationHref = href(locale, "consultation");
+  const rfqHref = href(locale, "rfq");
 
   return (
     <div className="site-shell">
@@ -130,22 +130,21 @@ export default function SiteShell({ locale, dict, children }) {
       <footer className="site-footer">
         <div className="container footer-grid">
           <section>
-            <h2>Top Industrial</h2>
-            <p>{dict.hero.body}</p>
+            <h2>{dict.footer.companyName}</h2>
+            <p>{dict.footer.description}</p>
           </section>
           <section>
-            <h3>{dict.nav.more}</h3>
+            <h3>{dict.footer.insightsTitle}</h3>
             <div className="grid">
-              {secondaryLinks.slice(0, 5).map((item) => (
-                <Link href={item.href} key={item.href}>
-                  {item.label}
-                </Link>
-              ))}
+              <Link href={href(locale, "blog")}>{dict.footer.blog}</Link>
+              <Link href={href(locale, "resources")}>{dict.footer.resources}</Link>
+              <Link href={href(locale, "caseStudies")}>{dict.footer.caseStudies}</Link>
             </div>
           </section>
           <section>
             <h3>{dict.footer.contact}</h3>
-            <p>info@topindustrial.com</p>
+            <p>{dict.footer.email}</p>
+            <p>{dict.footer.contactCta}</p>
             <div className="footer-ctas">
               <Link className="button button-primary" href={consultationHref}>
                 {dict.common.requestConsultation}

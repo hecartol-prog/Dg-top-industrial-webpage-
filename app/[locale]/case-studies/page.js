@@ -41,13 +41,24 @@ export default async function CaseStudiesPage({ params }) {
         <div className="container grid card-grid">
           {dict.caseStudies.items.map((caseStudy) => (
             <article className="card" key={caseStudy.slug}>
+              <p className="eyebrow">{caseStudy.tag}</p>
               <h3>{caseStudy.title}</h3>
               <p>{caseStudy.summary}</p>
+              <p>{caseStudy.badge}</p>
               <p>
                 <Link href={`/${locale}/case-studies/${caseStudy.slug}`}>{dict.common.learnMore}</Link>
               </p>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <article className="page-card">
+            <h2>{dict.caseStudies.ctaTitle}</h2>
+            <p>{dict.caseStudies.ctaDescription}</p>
+          </article>
         </div>
       </section>
     </>

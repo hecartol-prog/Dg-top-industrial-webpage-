@@ -49,6 +49,7 @@ export default async function CaseStudyDetailPage({ params }) {
           <p className="eyebrow">{dict.caseStudies.detailLabel}</p>
           <h1>{caseStudy.title}</h1>
           <p>{caseStudy.summary}</p>
+          <p>{caseStudy.badge}</p>
         </div>
       </section>
 
@@ -63,6 +64,19 @@ export default async function CaseStudyDetailPage({ params }) {
             <span>{caseStudy.title}</span>
             <span className="sr-only">{dict.common.caseStudyImagePlaceholder}</span>
           </div>
+          <article className="page-card">
+            {[
+              [dict.common.scope, caseStudy.scope],
+              [dict.common.approach, caseStudy.approach],
+              [dict.common.execution, caseStudy.execution],
+              [dict.common.result, caseStudy.result],
+            ].map(([label, value]) => (
+              <section className="address-block" key={label}>
+                <h2>{label}</h2>
+                <p>{value}</p>
+              </section>
+            ))}
+          </article>
         </div>
       </section>
     </>
