@@ -1,9 +1,16 @@
 import { notFound } from "next/navigation";
-import { findPageKey, getDictionary, isLocale, localizedSlugs, locales, pageKeys } from "@/lib/site-data";
+import {
+  findPageKey,
+  getDictionary,
+  isLocale,
+  localizedSlugs,
+  locales,
+  topLevelPageKeys,
+} from "@/lib/site-data";
 
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
-    pageKeys.map((key) => ({
+    topLevelPageKeys.map((key) => ({
       locale,
       slug: localizedSlugs[locale][key],
     })),
@@ -18,11 +25,21 @@ export async function generateMetadata({ params }) {
 
   const pageKey = findPageKey(locale, slug);
   const dict = getDictionary(locale);
+  const titleBySlug = {
+    [localizedSlugs[locale].about]: dict.about.title,
+    [localizedSlugs[locale].industries]: dict.industries.title,
+    [localizedSlugs[locale].solutions]: dict.solutions.title,
+  };
+  const descriptionBySlug = {
+    [localizedSlugs[locale].about]: dict.about.body,
+    [localizedSlugs[locale].industries]: dict.industries.pageDescriptor,
+    [localizedSlugs[locale].solutions]: dict.solutions.pageDescriptor,
+  };
   const page = pageKey ? dict.pages[pageKey] : null;
 
   return {
-    title: page?.title ?? "Top Industrial",
-    description: page?.body ?? dict.hero.body,
+    title: page?.title ?? titleBySlug[slug] ?? "Top Industrial",
+    description: page?.body ?? descriptionBySlug[slug] ?? dict.hero.body,
   };
 }
 
