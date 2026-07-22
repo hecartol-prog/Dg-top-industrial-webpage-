@@ -1,0 +1,29 @@
+{
+  "name": "top-industrial-website",
+  "version": "1.0.0",
+  "description": "Bilingual Top Industrial website",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hecartol-prog/Dg-top-industrial-webpage-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hecartol-prog/Dg-top-industrial-webpage-/issues"
+  },
+  "homepage": "https://github.com/hecartol-prog/Dg-top-industrial-webpage-#readme",
+  "dependencies": {
+    "lucide-react": "^1.25.0",
+    "next": "^16.2.11",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
