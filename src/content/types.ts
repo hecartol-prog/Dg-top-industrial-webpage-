@@ -44,6 +44,14 @@ export interface Service extends SluggedContent {
   group: ServiceGroup;
 }
 
+export interface CapabilityCluster {
+  id: string;
+  title: LocalizedString;
+  description: LocalizedString;
+  items: LocalizedStringArray;
+  relatedSolutions: string[];
+}
+
 export function pick<T>(value: Record<Locale, T>, locale: Locale): T {
   return value[locale];
 }

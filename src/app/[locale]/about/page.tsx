@@ -1,9 +1,8 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Factory, MapPin } from "lucide-react";
+import Image from "next/image";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { FinalCtaBand } from "@/components/ui/FinalCtaBand";
 import { PageIntro } from "@/components/ui/PageIntro";
-import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import { fullAddress } from "@/lib/site";
 import { buildMetadata } from "@/lib/seo";
 import type { Locale } from "@/content/types";
@@ -30,14 +29,22 @@ export default async function AboutPage({ params }: Props) {
   const tc = await getTranslations("cta");
   const values = t.raw("values") as string[];
   const why = t.raw("why") as string[];
-  const loc = locale as Locale;
 
   return (
     <>
       <Breadcrumbs items={[{ label: tn("home"), href: "/" }, { label: t("title") }]} />
       <PageIntro title={t("title")} description={t("description")} />
       <div className="container-site pb-16">
-        <ImagePlaceholder label="Dongguan manufacturing presence" icon={Factory} aspect="wide" />
+        <div className="relative h-64 overflow-hidden rounded-lg border border-border shadow-sm md:h-96">
+          <Image
+            src="/images/hero-facility.png"
+            alt={t("images.presenceAlt")}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 72rem"
+            priority
+          />
+        </div>
         <div className="mt-12 grid gap-10 lg:grid-cols-2">
           <section>
             <h2 className="text-3xl">{t("storyTitle")}</h2>
@@ -53,16 +60,24 @@ export default async function AboutPage({ params }: Props) {
             <p className="mt-3 font-ui text-sm text-muted">{fullAddress()}</p>
             <p className="mt-4 text-muted">{t("chinaExtra")}</p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
-              <ImagePlaceholder
-                label={loc === "es" ? "Oficina Dongguan" : "Dongguan Office"}
-                icon={MapPin}
-                aspect="wide"
-              />
-              <ImagePlaceholder
-                label={loc === "es" ? "Piso de producción" : "Production Floor"}
-                icon={Factory}
-                aspect="wide"
-              />
+              <div className="relative h-44 overflow-hidden rounded-lg border border-border bg-surface shadow-sm">
+                <Image
+                  src="/images/dongguan-office.png"
+                  alt={t("images.officeAlt")}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, 50vw"
+                />
+              </div>
+              <div className="relative h-44 overflow-hidden rounded-lg border border-border bg-surface shadow-sm">
+                <Image
+                  src="/images/production-floor.png"
+                  alt={t("images.productionAlt")}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, 50vw"
+                />
+              </div>
             </div>
           </section>
           <section>

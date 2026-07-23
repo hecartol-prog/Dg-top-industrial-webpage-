@@ -14,7 +14,7 @@ export async function SiteFooter() {
         <div>
           <Image
             src="/logo.png"
-            alt="Top Industrial"
+            alt="DG Top Industrial"
             width={120}
             height={76}
             className="h-10 w-auto bg-transparent object-contain"

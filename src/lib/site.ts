@@ -1,11 +1,11 @@
 export const siteConfig = {
-  name: "Top Industrial",
-  legalName: "Dongguan Top Industrial and Commerce Co. Ltd",
-  legalNameZh: "东莞若希迈贸易有限公司",
-  domain: "https://www.dgtopindustrial.com",
-  email: "info@dgtopindustrial.com",
+  name: "DG Top Industrial",
+  legalName: "Dongguan Top Industrial Co., Ltd.",
+  legalNameZh: "东莞拓达工业有限公司",
+  domain: "https://dgtopindustrial.com",
+  email: "hector@dgtopindustrial.com",
   whatsapp: "8613800000000",
-  linkedin: "https://www.linkedin.com/company/dgtopindustrialandcommerce",
+  linkedin: "https://www.linkedin.com/company/dg-top-industrial",
   address: {
     line1: "No. 41 Chatang Road, Building 1, Third Floor Room 302",
     line2: "Chashan Town, Dongguan City, Guangdong Province",

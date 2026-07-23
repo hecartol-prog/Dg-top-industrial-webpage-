@@ -48,7 +48,7 @@ export function SiteHeader() {
         <Link href="/" className="flex shrink-0 items-center" onClick={() => setOpen(false)}>
           <Image
             src="/logo.png"
-            alt="Top Industrial"
+            alt="DG Top Industrial"
             width={152}
             height={97}
             priority

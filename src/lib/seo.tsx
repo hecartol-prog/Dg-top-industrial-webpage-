@@ -94,20 +94,26 @@ export function buildMetadata({
   path,
   locale,
   alternatePath,
+  ogImage = "/og-image.png",
 }: {
   title: string;
   description: string;
   path: string;
   locale: Locale;
   alternatePath?: string;
+  ogImage?: string;
 }) {
   const url = `${siteConfig.domain}${path}`;
   const altLocale = locale === "en" ? "es" : "en";
   const altPath = alternatePath ?? path.replace(`/${locale}`, `/${altLocale}`);
+  const summary = description.slice(0, 160);
+  const ogImageUrl = ogImage.startsWith("http")
+    ? ogImage
+    : `${siteConfig.domain}${ogImage}`;
 
   return {
     title,
-    description,
+    description: summary,
     alternates: {
       canonical: url,
       languages: {
@@ -118,34 +124,41 @@ export function buildMetadata({
     },
     openGraph: {
       title,
-      description,
+      description: summary,
       url,
       siteName: siteConfig.name,
       locale: locale === "en" ? "en_US" : "es_ES",
       type: "website",
       images: [
         {
-          url: `${siteConfig.domain}/logo.png`,
-          width: 512,
-          height: 512,
-          alt: siteConfig.name,
+          url: ogImageUrl,
+          width: 1200,
+          height: 630,
+          alt: title,
         },
       ],
     },
     twitter: {
       card: "summary_large_image" as const,
       title,
-      description,
-      images: [`${siteConfig.domain}/logo.png`],
+      description: summary,
+      images: [ogImageUrl],
     },
   };
 }
 
 export function JsonLd({ data }: { data: Record<string, unknown> | Record<string, unknown>[] }) {
+  const items = Array.isArray(data) ? data : [data];
+
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
-    />
+    <>
+      {items.map((item, index) => (
+        <script
+          key={index}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(item) }}
+        />
+      ))}
+    </>
   );
 }

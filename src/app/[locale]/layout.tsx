@@ -52,6 +52,11 @@ export async function generateMetadata({ params }: Props) {
       locale === "es"
         ? "Socio de soluciones industriales para proyectos de manufactura en China y Asia."
         : "Industrial Solutions Partner for manufacturing projects across China and Asia.",
+    manifest: "/manifest.json",
+    icons: {
+      icon: [{ url: "/favicon.ico", sizes: "any" }],
+      apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    },
   };
 }
 
