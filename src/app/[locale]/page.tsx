@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { Quote } from "lucide-react";
+import { Building2, Quote } from "lucide-react";
 import { Hero } from "@/components/ui/Hero";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { FinalCtaBand } from "@/components/ui/FinalCtaBand";
@@ -44,19 +44,21 @@ export default async function HomePage({ params }: Props) {
   const featuredIndustries = [
     ...industries.filter((i) => i.id === "water-treatment"),
     ...industries.filter((i) => i.id !== "water-treatment"),
-  ].slice(0, 8);
+  ];
   const featuredServices = services.filter((s) =>
     [
       "engineering",
       "supplier-qualification",
       "project-management",
       "quality-control",
+      "manufacturing-supervision",
       "nearshoring-support",
       "manufacturing-transfer",
     ].includes(s.id),
   );
   const processPreview = process.slice(0, 5);
   const latestArticles = blog.slice(0, 3);
+  const partnerPlaceholders = Array.from({ length: 6 }, (_, i) => i + 1);
 
   return (
     <>
@@ -69,14 +71,36 @@ export default async function HomePage({ params }: Props) {
         imageAlt={t("heroImageAlt")}
       />
 
+      <section className="border-b border-border bg-gray-50 py-10">
+        <div className="container-site text-center">
+          <p className="font-ui text-sm text-muted">
+            {loc === "es"
+              ? "Sirviendo a empresas industriales en más de 20 países"
+              : "Serving industrial companies across 20+ countries"}
+          </p>
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+            {partnerPlaceholders.map((n) => (
+              <div
+                key={n}
+                title="Partner logo placeholder"
+                className="flex h-12 w-28 items-center justify-center rounded-md border border-gray-300 bg-gray-200"
+              >
+                <Building2 className="h-5 w-5 text-gray-300" aria-hidden />
+                <span className="sr-only">Partner logo placeholder</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="bg-white py-16 md:py-20">
         <div className="container-site">
           <ScrollReveal>
             <SectionHeader title={t("industriesTitle")} description={t("industriesDesc")} />
           </ScrollReveal>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
             {featuredIndustries.map((item, index) => (
-              <ScrollReveal key={item.id} delayMs={index * 80}>
+              <ScrollReveal key={item.id} delayMs={index * 60}>
                 <ContentCard
                   title={item.title[loc]}
                   summary={item.summary[loc]}
@@ -128,7 +152,7 @@ export default async function HomePage({ params }: Props) {
           <ScrollReveal>
             <SectionHeader title={t("servicesTitle")} description={t("servicesDesc")} />
           </ScrollReveal>
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {featuredServices.map((item, index) => (
               <ScrollReveal key={item.id} delayMs={index * 80}>
                 <ContentCard

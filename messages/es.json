@@ -20,7 +20,7 @@
     "home": "Inicio"
   },
   "footer": {
-    "tagline": "Socio de soluciones industriales para proyectos de manufactura complejos en China y Asia.",
+    "tagline": "Socio de Soluciones Industriales liderado por ingeniería para programas complejos de manufactura en China, Asia y América Latina. Convertimos requisitos técnicos en producción controlada — DFM, APQP, PPAP, calificación de proveedores y ejecución gestionada por calidad.",
     "allSolutions": "Todas las soluciones",
     "allIndustries": "Todas las industrias",
     "allServices": "Todos los servicios",
@@ -40,44 +40,44 @@
   },
   "home": {
     "heroBrand": "Top Industrial",
-    "heroTitle": "Proyectos de manufactura industrial. Diseñados y ejecutados.",
-    "heroDescription": "Top Industrial colabora con OEMs y empresas industriales para entregar moldes, componentes, equipos y programas de manufactura complejos mediante supervisión de ingeniería y una red calificada de manufactura en Asia.",
+    "heroTitle": "Programas de Manufactura Industrial — Diseñados, Calificados y Ejecutados.",
+    "heroDescription": "Top Industrial colabora con OEMs, EPCs y compradores industriales para entregar moldes, componentes, equipos y programas completos de manufactura. Aportamos disciplina liderada por ingeniería — DFM, APQP, PPAP, FMEA, calificación de proveedores y ejecución gestionada por calidad — en una red calificada de manufactura en Asia.",
     "heroImageAlt": "Entorno de manufactura industrial",
     "trustYears": "Más de 15 años de experiencia en proyectos industriales",
     "trustChina": "Con sede en Dongguan, China",
-    "trustInternational": "Entrega de proyectos internacionales",
+    "trustInternational": "Entrega internacional de proyectos",
     "trustEngineering": "Ejecución liderada por ingeniería",
     "industriesTitle": "Industrias que apoyamos",
-    "industriesDesc": "Programas de manufactura específicos por sector para OEMs, plantas y líderes de compras.",
+    "industriesDesc": "Programas de manufactura específicos por sector para OEMs, equipos de planta, líderes de compras y gerentes de proyecto EPC — alineados a estándares sectoriales (IATF 16949, ISO 13485, ASME, AWS, ASTM) y a las realidades de la producción industrial.",
     "capabilitiesTitle": "Capacidades",
-    "capabilitiesDesc": "Capacidad técnica en plásticos, metales, herramentales, equipos y transferencia de manufactura.",
+    "capabilitiesDesc": "Capacidad técnica en plásticos, metales, herramentales, equipos, automatización y transferencia de manufactura — gobernada por disciplina de ingeniería, proveedores calificados y sistemas de calidad alineados a expectativas industriales.",
     "servicesTitle": "Servicios principales",
-    "servicesDesc": "Desde revisión de ingeniería hasta supervisión de producción y soporte postventa.",
+    "servicesDesc": "Desde revisión de ingeniería y DFM hasta calificación de proveedores, PPAP, supervisión de producción y continuidad posventa — los servicios que convierten requisitos en producción controlada, repetible y documentada.",
     "whyTitle": "Por qué Top Industrial",
-    "whyDesc": "Operamos como socio técnico responsable de la claridad del proyecto, calificación de proveedores y ejecución de manufactura—no como intermediario ni vendedor de catálogo.",
+    "whyDesc": "Operamos como socio técnico responsable de la claridad del proyecto, la calificación de proveedores y la ejecución de manufactura — no como intermediario, distribuidor ni vendedor de catálogo. La disciplina de ingeniería es nuestro valor; la entrega controlada es nuestro compromiso.",
     "whyItems": {
-      "one": "Revisión de ingeniería antes del compromiso",
-      "two": "Ecosistema de manufactura calificado en China y Asia",
-      "three": "Proceso transparente desde RFQ hasta envío",
-      "four": "Sistemas de calidad alineados a expectativas industriales"
+      "one": "Revisión de ingeniería y DFM antes de cualquier compromiso de producción",
+      "two": "Ecosistema de manufactura calificado en China y Asia — seleccionado por capacidad, no por menor precio",
+      "three": "Proceso transparente desde RFQ hasta inspección y envío, con criterios de aceptación documentados",
+      "four": "Sistemas de calidad alineados a expectativas industriales — ISO 9001 base, IATF 16949, ISO 13485, ASME"
     },
-    "networkTitle": "Red de manufactura",
-    "networkDesc": "Una red calificada de socios de manufactura seleccionados por capacidad de proceso, sistemas de calidad y adecuación al proyecto—no por el precio más bajo.",
-    "engineeringTitle": "Soporte de ingeniería",
-    "engineeringDesc": "Evaluación técnica de planos, materiales, tolerancias, estrategia de herramental y riesgo de producción antes de cotizar y liberar.",
+    "networkTitle": "Red de manufactura calificada",
+    "networkDesc": "Una red calificada de socios de manufactura seleccionados por capacidad de proceso, madurez del sistema de calidad, perfil de capacidad y ajuste al programa — no por el listado de menor precio. Cada socio se califica contra criterios específicos del programa, con FAI y documentación PPAP mantenidos para producción en serie.",
+    "engineeringTitle": "Ejecución liderada por ingeniería",
+    "engineeringDesc": "Evaluación técnica de planos, GD&T, materiales, tolerancias, estrategia de herramentales, DFM/DFA y riesgo de producción antes de cotización y liberación. Disciplina de puertas de fase APQP; PFMEA y planes de control; identificación de CTQ — el trabajo de ingeniería que previene costo de calidad aguas abajo.",
     "processTitle": "Proceso del proyecto",
-    "processDesc": "Una ruta clara desde requisitos hasta soporte postventa.",
-    "articlesTitle": "Artículos recientes",
+    "processDesc": "Un proceso estructurado de nueve pasos — desde definición de requisitos hasta continuidad posventa — que reduce el riesgo de manufactura y mantiene alineados a ingeniería, compras y producción contra una sola línea base técnica.",
+    "articlesTitle": "Artículos técnicos recientes",
     "testimonialsTitle": "Lo que valoran nuestros socios",
     "finalTitle": "Inicie una conversación industrial",
-    "finalDesc": "Comparta sus planos, alcance o desafío de manufactura. Responderemos con una discusión de ingeniería estructurada.",
+    "finalDesc": "Comparta sus planos, alcance o desafío de manufactura. Responderemos con una discusión estructurada de ingeniería — alcance, línea base técnica, plan de calificación y el camino del requisito a la producción controlada.",
     "metricsTitle": "Indicadores clave",
     "metrics": {
       "years": "15+",
       "yearsLabel": "Años de experiencia en proyectos industriales",
       "projects": "1,300+",
-      "projectsLabel": "Proyectos coordinados",
-      "sectors": "8",
+      "projectsLabel": "Proyectos coordinados entre sectores",
+      "sectors": "11",
       "sectorsLabel": "Sectores industriales atendidos",
       "partners": "40+",
       "partnersLabel": "Socios de manufactura calificados"
@@ -85,94 +85,109 @@
   },
   "about": {
     "title": "Sobre Top Industrial",
-    "description": "Dongguan Top Industrial and Commerce Co. Ltd es un Socio de Soluciones Industriales con sede en Dongguan, China, que apoya proyectos internacionales de manufactura desde hace más de 15 años.",
+    "description": "Dongguan Top Industrial and Commerce Co. Ltd es un Socio de Soluciones Industriales liderado por ingeniería con sede en Dongguan, China, que apoya programas internacionales de manufactura desde hace más de 15 años con disciplina técnica, proveedores calificados y ejecución gestionada por calidad.",
     "storyTitle": "Historia de la empresa",
-    "story": "Top Industrial se creó para ayudar a empresas industriales a ejecutar proyectos de manufactura en China y Asia con disciplina de ingeniería. Coordinamos moldes, componentes, equipos, programas OEM/ODM y transferencias de manufactura a través de una red de producción calificada.",
-    "yearsTitle": "Más de 15 años",
-    "years": "Experiencia en plásticos, metales, equipos industriales, sistemas de energía renovable, tratamiento de agua, automatización y programas de ingeniería a medida.",
-    "chinaTitle": "Presencia en China",
-    "china": "Nuestra oficina está en Chashan, Dongguan—dentro de una de las regiones manufactureras clave de China—lo que permite supervisión cercana de herramental, producción, inspección y logística.",
-    "chinaExtra": "Dongguan es el corazón del cinturón manufacturero de China en el Área de la Gran Bahía, con acceso directo a cadenas de suministro de herramentales, inyección de plástico, fabricación metálica, electrónica y ensamblaje en un radio de 60 minutos de nuestra oficina.",
+    "story": "Top Industrial se creó para ayudar a empresas industriales a ejecutar proyectos de manufactura en China y Asia con disciplina de ingeniería — no sourcing transaccional. Coordinamos moldes, componentes, equipos, programas OEM/ODM y transferencias de manufactura a través de una red de producción calificada seleccionada por capacidad de proceso y madurez del sistema de calidad. Nuestro rol es la capa técnica y de gestión de programa entre la intención del comprador y la ejecución del proveedor, particularmente valioso cuando el comprador no puede mantener presencia total en sitio y necesita un socio técnicamente alfabetizado y comercialmente disciplinado.",
+    "yearsTitle": "Más de 15 años de experiencia en proyectos industriales",
+    "years": "Experiencia en moldeo por inyección plástica, manufactura metálica (CNC, lámina metálica, fundición, forjado), equipos industriales y paquetes skid, sistemas de energía renovable, tratamiento de agua y aguas residuales, automatización industrial y programas de ingeniería a medida. Hemos coordinado programas para OEMs, EPCs, equipos de planta y líderes de compras en sectores automotriz, médico, bienes de consumo, equipos industriales, energía, minería, alimentos y bebidas, empaque, electrónica, construcción y tratamiento de agua.",
+    "chinaTitle": "Presencia en China — Dongguan, Área de la Gran Bahía",
+    "china": "Nuestra oficina está en Chashan, Dongguan — dentro de una de las regiones manufactureras clave de China — lo que permite supervisión cercana de herramental, producción, inspección y logística. Trabajamos cara a cara con socios de manufactura en el Delta del Río Perla y el Área de la Gran Bahía, realizando auditorías de proveedores, witnessing de FAI, supervisión en proceso e inspección previa al envío sin el retraso de la coordinación remota.",
+    "chinaExtra": "Dongguan se sitúa en el corazón del cinturón manufacturero de China en el Área de la Gran Bahía, con acceso directo a cadenas de suministro de herramentales, inyección plástica, fabricación metálica, electrónica, fundición y ensamblaje en un radio de 60 minutos desde nuestra oficina. La profundidad de capacidad de manufactura de la región — desde herramentales de prototipo hasta producción en serie de alto volumen, desde CNC de precisión hasta fabricación estructural pesada — es la base del valor que entregamos a compradores internacionales.",
+    "addressEs": "No. 41 Chatang Road, Edificio 1, Tercer Piso, Sala 302, Pueblo de Chashan, Ciudad de Dongguan, Provincia de Guangdong, República Popular China, C.P. 523308",
     "internationalTitle": "Experiencia internacional",
-    "international": "Trabajamos con OEMs, equipos de compras, gerentes de planta y líderes de proyecto en múltiples mercados que necesitan ejecución industrial confiable—no sourcing transaccional.",
+    "international": "Trabajamos con OEMs, equipos de compras, gerentes de planta, líderes de proyecto EPC y directores de ingeniería en múltiples mercados que necesitan ejecución industrial confiable — no sourcing transaccional. Nuestros programas han entregado a clientes en América Latina, Norteamérica, Europa, Medio Oriente y Asia-Pacífico. Somos particularmente experimentados en programas interregionales: transferencia de manufactura, nearshoring (especialmente Asia a América Latina) y modelos de suministro híbridos donde los componentes se obtienen de múltiples regiones y se integran en un punto de ensamblaje final.",
     "missionTitle": "Misión",
-    "mission": "Convertir requisitos industriales en proyectos de manufactura ejecutables con claridad técnica y entrega controlada.",
+    "mission": "Convertir requisitos industriales en programas de manufactura ejecutables con claridad técnica, proveedores calificados y entrega controlada — aplicando disciplina de ingeniería (DFM, APQP, PPAP, FMEA) en cada etapa desde el concepto hasta la producción en serie.",
     "visionTitle": "Visión",
-    "vision": "Ser un Socio de Soluciones Industriales de confianza para empresas que necesitan capacidad de manufactura en China y Asia con responsabilidad de ingeniería.",
+    "vision": "Ser el Socio de Soluciones Industriales de confianza para empresas que necesitan capacidad de manufactura en China y Asia con responsabilidad de ingeniería — tendiendo el puente entre la intención del comprador internacional y la ejecución regional de manufactura.",
     "valuesTitle": "Valores",
-    "values": ["Honestidad técnica", "Disciplina de proceso", "Responsabilidad de calidad", "Asociación a largo plazo", "Profesionalismo internacional"],
+    "values": ["Honestidad técnica sobre afirmación", "Disciplina de proceso sobre expediencia", "Responsabilidad de calidad sobre ventaja de precio", "Asociación a largo plazo sobre transacción", "Profesionalismo internacional en cada interacción"],
     "approachTitle": "Nuestro enfoque",
-    "approach": "Comenzamos con requisitos y revisión de ingeniería, calificamos la ruta de manufactura adecuada, gestionamos la ejecución y mantenemos visibilidad de calidad durante producción y envío.",
+    "approach": "Comenzamos con requisitos y revisión de ingeniería (DFM, GD&T, selección de material, apilamiento de tolerancias), calificamos la ruta de manufactura adecuada (FAI, PPAP, evaluación de capacidad de proveedor), gestionamos la ejecución (plan de control, inspección en proceso, supervisión durante fases críticas, control de cambios) y mantenemos visibilidad de calidad a través de producción y envío (PSI, paquete documental, continuidad posventa). Las decisiones de ingeniería se toman antes de los compromisos; la evidencia de calidad se captura durante la ejecución; la documentación respalda todo el ciclo de vida del programa.",
     "teamTitle": "Liderazgo",
     "teamName": "Héctor Carreño Toledo",
     "teamRole": "Director Comercial",
-    "teamBio": "Profesional industrial bilingüe que conecta la capacidad de manufactura en China con los requisitos de proyectos en América Latina y mercados internacionales. Enfocado en ejecución de proyectos liderada por ingeniería, calificación de proveedores y asociaciones de manufactura a largo plazo.",
-    "certsTitle": "Certificaciones y Estándares",
-    "certsBody": "Nuestros socios de manufactura operan bajo sistemas de gestión de calidad certificados ISO 9001, IATF 16949 e ISO 14001. Trabajamos con estándares de inspección industrial que incluyen AS9102 (primer artículo), planes de muestreo AQL y requisitos específicos del cliente.",
+    "teamBio": "Profesional industrial bilingüe que conecta la capacidad de manufactura en China con los requisitos de proyectos en América Latina y mercados internacionales. Enfocado en ejecución de proyectos liderada por ingeniería, calificación de proveedores y asociaciones de manufactura a largo plazo. Su experiencia abarca programas automotrices, de equipos industriales, tratamiento de agua y bienes de consumo — con particular profundidad en transferencia de manufactura interregional y ejecución de nearshoring.",
+    "certsTitle": "Certificaciones, Normas y Sistemas de Calidad",
+    "certsBody": "Nuestros socios de manufactura operan bajo sistemas de gestión de calidad certificados ISO 9001 (línea base), IATF 16949 (automotriz), ISO 13485 (dispositivos médicos), ISO 14001 (ambiental) y AS9100 (aeroespacial, cuando aplica). Trabajamos con estándares de inspección industrial que incluyen AS9102 (inspección de primer artículo), planes de muestreo AQL (ANSI/ASQ Z1.4), requisitos PPAP específicos del cliente (Nivel 1 a Nivel 5) y metodología SPC donde se requiere. Los paquetes de documentación incluyen certificados de material (EN 10204 3.1 / 3.2), calificaciones de procedimiento de soldadura (AWS D1.1 / ISO 15614), registros de hidroprueba (ASME B31.3) y registros de control de configuración — configurados a los requisitos de recepción y regulatorios del comprador.",
     "whyTitle": "Por qué trabajan con nosotros",
-    "why": ["Necesidad de propiedad del proyecto liderada por ingeniería", "Alcances complejos de manufactura multiproceso", "Transferencia de manufactura o soporte de nearshoring", "Requisito de inspección y calificación de proveedores", "Preferencia por un socio, no un intermediario"]
+    "why": [
+      "Necesidad de propiedad del proyecto liderada por ingeniería — no un proveedor transaccional",
+      "Alcances complejos de manufactura multiproceso que requieren coordinación entre especialistas",
+      "Ejecución de transferencia de manufactura o nearshoring — Asia a América Latina o interregional",
+      "Requisito de inspección, calificación de proveedores y evidencia documentada de calidad",
+      "Preferencia por un socio con responsabilidad técnica y comercial — no un intermediario"
+    ]
   },
   "processPage": {
     "title": "Proceso del proyecto",
-    "description": "Un proceso estructurado de nueve pasos que reduce el riesgo de manufactura y mantiene alineados ingeniería, compras y producción."
+    "description": "Un proceso estructurado de nueve pasos — desde definición de requisitos hasta continuidad posventa — que reduce el riesgo de manufactura y mantiene alineados a ingeniería, compras y producción contra una sola línea base técnica. Cada fase tiene entradas, salidas, derechos de decisión y criterios de aceptación definidos."
   },
   "qualityPage": {
-    "title": "Calidad",
-    "description": "La calidad se gestiona como un sistema continuo—desde la calificación de proveedores y auditorías de manufactura hasta la inspección y el monitoreo permanente.",
+    "title": "Calidad y Validación",
+    "description": "La calidad se gestiona como un sistema continuo — desde calificación de proveedores y auditorías de manufactura hasta inspección, PPAP, SPC y monitoreo permanente. Trabajamos según estándares de calidad industrial: línea base ISO 9001, IATF 16949 para automotriz, ISO 13485 para médico, AS9100 para aeroespacial cuando aplica. La calidad se diseña en el programa, no se atornilla después de un defecto.",
     "sections": {
       "inspection": {
-        "title": "Inspección",
-        "body": "Inspección dimensional, visual y funcional alineada a planos, normas y criterios de aceptación acordados. Desarrollamos planes de inspección antes de la liberación a producción, definimos dimensiones críticas para la calidad y documentamos resultados con registros fotográficos y dimensionales. Según los requisitos del proyecto, están disponibles inspecciones de primer artículo, en proceso y finales."
+        "title": "Inspección y Verificación",
+        "body": "Verificación dimensional, visual, funcional y documental alineada a planos, normas y criterios de aceptación acordados. Desarrollamos planes de inspección antes de la liberación a producción — derivados de la línea base técnica y del registro de características críticas para la calidad (CTQ). Los modos de inspección incluyen inspección de entrada de componentes del proveedor, inspección en proceso durante la producción, inspección de primer artículo (FAI, formato compatible con AS9102) al lanzamiento del proceso e inspección previa al envío (PSI) antes de la liberación. El muestreo se basa en riesgo — toda dimensión CTQ se verifica en cada pieza cuando la inspección al 100% es factible; el muestreo AQL (ANSI/ASQ Z1.4) se aplica para características no críticas. Los registros de inspección incluyen datos dimensionales con trazabilidad de medición (equipo, calibración, operador), evidencia fotográfica de condiciones visuales y estéticas, resultados de prueba funcional y estado de disposición. El análisis del sistema de medición (MSA / Gage R&R) se aplica cuando la incertidumbre de medición afecta decisiones de aceptación."
       },
       "systems": {
-        "title": "Sistemas de calidad",
-        "body": "Controles de proceso, documentación y trazabilidad acordes a los requisitos del proyecto industrial. Trabajamos con proveedores cuyos sistemas de gestión de calidad se alinean con ISO 9001, IATF 16949 o normas equivalentes. Los paquetes de documentación incluyen certificados de material, informes de inspección, registros de trazabilidad y resúmenes de envío configurados a los requisitos de recepción del comprador."
+        "title": "Sistemas de Gestión de Calidad",
+        "body": "Controles de proceso, documentación y trazabilidad acordes a los requisitos del proyecto industrial. Trabajamos con proveedores cuyos sistemas de gestión de calidad se alinean con ISO 9001 (línea base), IATF 16949 (automotriz), ISO 13485 (dispositivos médicos), ISO 14001 (ambiental) y AS9100 (aeroespacial, cuando aplica). Los paquetes de documentación incluyen certificados de material (EN 10204 3.1 / 3.2), informes de inspección, calificaciones de procedimiento de soldadura (AWS D1.1 / ISO 15614), registros de calibración, registros de trazabilidad (identificación de lote, números de colada) y resúmenes de envío configurados a los requisitos de recepción del comprador y al régimen regulatorio. Los planes de control (formato AIAG cuando se requiere) gobiernan cada CTQ en cada etapa de producción. El PFMEA identifica los modos de falla de proceso y sus controles; el MSA / Gage R&R verifica la adecuación del sistema de medición; el SPC rastrea características críticas durante la producción en serie donde el control estadístico de proceso agrega valor."
       },
       "supplier": {
-        "title": "Calificación de proveedores",
-        "body": "Evaluación de capacidad, capacidad productiva y sistemas de calidad antes del compromiso de producción. Nuestro proceso de calificación incluye revisión del proceso de manufactura, evaluación de equipo, verificación de la capacidad de la fuerza laboral y auditoría de la documentación del sistema de calidad. Solo se aprueban para producción los proveedores que demuestran capacidad consistente frente a los requisitos específicos de proceso y tolerancia del proyecto."
+        "title": "Calificación de Proveedores",
+        "body": "Evaluación de capacidad, capacidad productiva y madurez del sistema de calidad antes del compromiso de producción — no una auditoría genérica, sino una evaluación estructurada contra los requisitos específicos de proceso, material, tolerancia y volumen del programa. Nuestro proceso de calificación cubre cuatro dimensiones: capacidad de proceso de manufactura (lista de equipo, edad, condición, estudios de capacidad en procesos relevantes con objetivos Cpk/Ppk), madurez del sistema de calidad (plan de control, MSA, calibración, trazabilidad, gestión de no conformidades, efectividad de acción correctiva), capacidad operativa (carga de capacidad, plazo, resiliencia de segunda fuente) y ejecución de programa (gestión de proyectos, control de cambios, rutas de escalamiento, comunicación). La inspección de primer artículo (FAI, compatible con AS9102) se ejecuta al lanzamiento del proceso; la presentación PPAP (Nivel 1–5 según requisito del cliente) se proporciona cuando aplica. Solo se aprueban para producción los proveedores que demuestran capacidad consistente contra los requisitos específicos del programa."
       },
       "audits": {
-        "title": "Auditorías de manufactura",
-        "body": "Auditorías en sitio y de proceso para verificar preparación, equipo, personal y planes de control. Las auditorías se realizan antes de la liberación a producción y pueden incluir estudios de capacidad de proceso, verificación de controles ambientales y evaluación de competencia de operadores. Los hallazgos se documentan y las acciones correctivas se confirman antes de autorizar la producción."
+        "title": "Auditorías de Fábrica y Estudios de Capacidad de Proceso",
+        "body": "Auditorías in situ e híbridas para verificar preparación, equipo, personal, planes de control y madurez de ejecución de programa — delimitadas a los requisitos del programa, no listas de verificación genéricas estilo ISO. Las auditorías cubren cuatro áreas en profundidad: capacidad de manufactura (lista de equipo, edad, condición, estudios de capacidad en procesos relevantes), sistema de calidad (planes de control, MSA, calibración, trazabilidad, bitácoras de no conformidad, historial de acción correctiva), ejecución de programa (disciplina de gestión de proyectos, control de cambios, rutas de escalamiento, comunicación) y madurez operativa (estabilidad de personal, indicadores financieros, continuidad de negocio). Los hallazgos se documentan con evidencia fotográfica, se categorizan por severidad (crítico, mayor, menor) y se revisan con el proveedor en una reunión de cierre. Se emite un informe formal de auditoría con plan de acción correctiva y verificación de efectividad antes de la autorización de producción. Las auditorías pueden combinarse con inspección de primer artículo o estudio de capacidad de proceso para evidencia adicional — particularmente valioso para contratación de proveedor por primera vez o aumento significativo de volumen."
       },
       "monitoring": {
-        "title": "Monitoreo continuo",
-        "body": "Seguimiento de producción, escalamiento de incidencias y acciones correctivas hasta la entrega y postventa. Mantenemos visibilidad del avance de producción, realizamos revisiones de muestras durante las corridas y gestionamos no conformidades mediante análisis documentado de causa raíz y ciclos de acción correctiva. El soporte postentrega incluye integración de retroalimentación de campo y seguimiento del desempeño de proveedores."
+        "title": "Monitoreo Continuo y Posventa",
+        "body": "Seguimiento de producción, escalamiento de incidencias y acción correctiva hasta la entrega y la posventa — manteniendo la calidad visible a lo largo del ciclo de vida del programa. Mantenemos visibilidad del avance de producción, realizamos revisiones de muestras durante las corridas y gestionamos no conformidades mediante análisis documentado de causa raíz y ciclos de acción correctiva (metodología 8D cuando aplica). El desempeño del proveedor se rastrea en tasa de defectos PPM, entrega a tiempo y capacidad de respuesta a problemas — las revisiones trimestrales de negocio exponen tendencias y oportunidades de mejora. El soporte postentrega incluye integración de retroalimentación de campo, preparación de refacciones y tendencia del desempeño del proveedor — cerrando el ciclo entre lo que se especificó, lo que se produjo y lo que el campo experimentó. La posventa no es un después de pensamiento; es la continuidad que protege el valor del programa a lo largo de su ciclo de vida."
+      },
+      "ppap": {
+        "title": "PPAP y APQP",
+        "body": "Production Part Approval Process (PPAP) y Advanced Product Quality Planning (APQP) no son formalidades solo automotrices — son marcos prácticos para gestionar la transición de diseño a producción en serie en cualquier programa industrial que necesite evidencia documentada de calificación de proceso. APQP estructura el programa: fase 0 (concepto), fase 1 (diseño del producto), fase 2 (diseño del proceso), fase 3 (validación), fase 4 (lanzamiento y ramp-up) — con revisiones de puerta entre fases. PPAP captura la evidencia: registro de diseño, documentos de cambio de ingeniería, aprobación de ingeniería del cliente, DFMEA, PFMEA, plan de control, MSA, resultados dimensionales, resultados de prueba de material/desempeño, estudios iniciales de proceso (Cpk ≥ 1,33 para producción en serie, Ppk ≥ 1,67 para procesos nuevos), documentación de laboratorio calificado, aprobación de apariencia, muestra de producto, muestra master, ayudas de verificación, requisitos específicos del cliente y Garantía de Presentación de Pieza (PSW). El nivel de presentación (Nivel 1–5) se acuerda con el cliente. Aplicamos estos marcos escalados al perfil de riesgo del programa — no como sobrecarga burocrática, sino como la estructura que marca la diferencia entre un lanzamiento de producción controlado y un experimento de calidad."
+      },
+      "fmea": {
+        "title": "FMEA y Gestión de Riesgo",
+        "body": "Failure Mode and Effects Analysis (FMEA) es la técnica estructurada para anticipar modos de falla antes de que ocurran — DFMEA (FMEA de Diseño) aborda riesgos del diseño del producto; PFMEA (FMEA de Proceso) aborda riesgos de ejecución del proceso. Facilitamos el FMEA con el equipo del programa y el proveedor: identificar modos de falla potenciales, evaluar severidad, ocurrencia y detección, calcular el Número de Prioridad de Riesgo (RPN) y definir acciones de mitigación para ítems de alto riesgo. El DFMEA se aplica durante la fase de diseño — exponiendo cambios de diseño que reducen el riesgo de falla antes de comprometer herramentales. El PFMEA se aplica durante la fase de diseño del proceso — exponiendo controles de proceso que detectan o previenen modos de falla durante la producción. La salida es un documento vivo, revisado en cada puerta y actualizado a medida que el programa aprende. El FMEA no es un ejercicio de una sola vez; es el pensamiento estructurado que convierte 'esperamos que funcione' en 'hemos anticipado los modos de falla y tenemos controles en su lugar.'"
       }
     }
   },
   "capabilitiesPage": {
     "title": "Capacidades",
-    "description": "Capacidades de manufactura e ingeniería multidisciplinarias para proyectos industriales que requieren más de un proceso o proveedor."
+    "description": "Capacidades de manufactura e ingeniería multidisciplinarias para proyectos industriales que requieren más de un proceso o proveedor. Cada capacidad se califica a través de evaluación de proveedor, FAI y (cuando aplica) PPAP — y se gobierna a través de la metodología de gestión de programa."
   },
   "industriesPage": {
     "title": "Industrias",
-    "description": "Programas industriales adaptados a requisitos sectoriales, expectativas de cumplimiento y realidades de producción."
+    "description": "Programas industriales adaptados a requisitos sectoriales, expectativas de cumplimiento (IATF 16949, ISO 13485, ASME, AWS, ASTM) y realidades de producción de cada sector — desde disciplina de lanzamiento automotriz hasta ingeniería de vida al desgaste minero hasta documentación de dispositivo médico."
   },
   "solutionsPage": {
     "title": "Soluciones",
-    "description": "Soluciones de manufactura en plásticos, metales, equipos, energía, tratamiento de agua, automatización y programas a medida."
+    "description": "Soluciones de manufactura en inyección plástica, manufactura metálica, equipos industriales, energía renovable, tratamiento de agua, automatización, empaque y programas a medida — cada una con rutas de proceso calificadas y metodología de validación."
   },
   "servicesPage": {
     "title": "Servicios",
-    "description": "Servicios de ingeniería, calificación, gestión de proyectos, calidad y cadena de suministro que convierten requisitos en proyectos ejecutables."
+    "description": "Servicios de ingeniería, calificación, gestión de proyectos, calidad y cadena de suministro que convierten requisitos en programas ejecutables — aplicando disciplina DFM, APQP, PPAP, FMEA y calificación de proveedores en cada etapa."
   },
   "caseStudiesPage": {
     "title": "Casos de éxito",
-    "description": "Proyectos industriales representativos que ilustran enfoque de ingeniería, ejecución y resultados controlados."
+    "description": "Proyectos industriales representativos que ilustran enfoque de ingeniería, ejecución y resultados controlados — con evidencia documentada de estudios de capacidad, FAI, PPAP y continuidad dimensional."
   },
   "blogPage": {
-    "title": "Blog",
-    "description": "Artículos prácticos sobre manufactura, producción en China, ingeniería, compras, nearshoring y cadena de suministro."
+    "title": "Artículos técnicos",
+    "description": "Artículos prácticos sobre manufactura, producción en China, ingeniería (DFM, APQP, PPAP, FMEA), compras, nearshoring y resiliencia de cadena de suministro — escritos para líderes de ingeniería, compras y operaciones."
   },
   "resourcesPage": {
     "title": "Recursos",
-    "description": "Listas de verificación y guías para preparar RFQs, auditorías, paquetes de planos y transferencias de manufactura."
+    "description": "Listas de verificación y guías para preparar RFQs, auditorías, paquetes de planos y transferencias de manufactura — herramientas prácticas de ingeniería que puede usar."
   },
   "contactPage": {
     "title": "Contacto",
-    "description": "Comuníquese con nuestra oficina en Dongguan por correo, WhatsApp o LinkedIn, o envíe un mensaje mediante el formulario. Para conversaciones exploratorias, solicite una consulta; para paquetes de planos y BOM, use el formulario RFQ.",
+    "description": "Comuníquese con nuestra oficina en Dongguan por correo, WhatsApp o LinkedIn, o envíe un mensaje mediante el formulario. Para conversaciones exploratorias, solicite una consulta; para paquetes de planos y BOMs, use el formulario RFQ — ambos se enrutan a nuestro equipo de ingeniería para respuesta estructurada.",
     "channels": "Canales directos",
     "address": "Dirección de la oficina",
     "consultationLink": "¿Prefiere una reunión estructurada? Solicite una consulta.",
@@ -180,12 +195,12 @@
   },
   "consultationPage": {
     "title": "Solicitar consulta",
-    "description": "Programe una conversación exploratoria sobre su proyecto de manufactura, necesidades de proveedores o planes de nearshoring. Para solicitudes de cotización con planos, use el formulario RFQ.",
+    "description": "Programe una conversación exploratoria sobre su proyecto de manufactura, necesidades de proveedores o planes de nearshoring. Para solicitudes de cotización con planos, use el formulario RFQ — ambos son revisados por nuestro equipo de ingeniería.",
     "rfqLink": "¿Necesita enviar planos o un BOM? Vaya a RFQ."
   },
   "rfqPage": {
     "title": "Solicitud de cotización",
-    "description": "Envíe detalles del proyecto, cantidad objetivo, país de destino, cronograma y archivos de ingeniería para revisión."
+    "description": "Envíe detalles del proyecto, cantidad objetivo, país de destino, cronograma y archivos de ingeniería para revisión. Cuanto más completa sea la línea base técnica, más comparable será la respuesta — vea nuestro artículo de preparación de manufactura para guía."
   },
   "privacyPage": {
     "title": "Política de privacidad",
@@ -234,26 +249,26 @@
   },
   "cta": {
     "qualityTitle": "Discuta sus requisitos de calidad",
-    "qualityDesc": "Comparta criterios de inspección, expectativas de documentación o necesidades de calificación de proveedores. Definiremos una ruta de calidad práctica para su proyecto.",
+    "qualityDesc": "Comparta criterios de inspección, expectativas de documentación, requisitos PPAP/APQP o necesidades de calificación de proveedores. Definiremos una ruta de calidad práctica para su proyecto — desde FAI hasta producción en serie.",
     "processTitle": "Inicie un proyecto",
-    "processDesc": "Comience con una discusión de ingeniería estructurada para que alcance, riesgos y siguientes pasos queden claros antes del compromiso de producción.",
+    "processDesc": "Comience con una discusión estructurada de ingeniería para que alcance, línea base técnica, plan de calificación y riesgos queden claros antes de cualquier compromiso de producción. Cuanto antes nos involucremos, más riesgo de fabricabilidad podemos retirar antes de que se convierta en costo.",
     "casesTitle": "Discuta un proyecto similar",
-    "casesDesc": "Cuéntenos sobre un desafío de manufactura comparable. Revisaremos la factibilidad y recomendaremos un enfoque de ejecución.",
+    "casesDesc": "Cuéntenos sobre un desafío de manufactura comparable. Revisaremos factibilidad, recomendaremos un enfoque de ejecución y definiremos el plan de calificación que le dará confianza antes del compromiso.",
     "aboutTitle": "Inicie una conversación",
-    "aboutDesc": "Ya sea que necesite soporte de manufactura en China, calificación de proveedores o orientación de nearshoring, estamos listos para hablar sobre sus requisitos."
+    "aboutDesc": "Ya sea que necesite soporte de manufactura en China, calificación de proveedores, transferencia de manufactura o ejecución de nearshoring, estamos listos para discutir sus requisitos con disciplina de ingeniería y comercial."
   },
   "testimonials": {
     "one": {
-      "quote": "La revisión de ingeniería aclaró el riesgo de herramental antes de comprometernos con la producción.",
-      "role": "Gerente de Ingeniería, OEM de equipos industriales"
+      "quote": "La revisión de ingeniería y el análisis DFM expusieron el riesgo de herramentales y tolerancias antes de comprometernos con la producción — ahorrándonos un experimento de calidad que nos habría costado la ventana de lanzamiento.",
+      "role": "Gerente de Ingeniería, OEM de Equipos Industriales"
     },
     "two": {
-      "quote": "Necesitábamos supervisión de calidad coordinada en múltiples procesos, no una simple orden de compra.",
-      "role": "Director de Compras, Productos de consumo"
+      "quote": "Necesitábamos supervisión de calidad coordinada a través de múltiples procesos y múltiples proveedores, no una simple orden de compra. Su disciplina PPAP y régimen de inspección nos dieron la base de evidencia que nuestros clientes requerían.",
+      "role": "Director de Compras, Fabricante de Productos de Consumo"
     },
     "three": {
-      "quote": "Su proceso hizo que la transferencia de manufactura fuera estructurada y medible.",
-      "role": "Director de Operaciones, Fabricante de empaque"
+      "quote": "Su metodología de transferencia de manufactura hizo que el traslado fuera estructurado, medible y dimensionalmente continuo — el cliente nunca vio el cambio. Eso es lo que parece la ejecución real de transferencia.",
+      "role": "Director de Operaciones, Fabricante de Empaque"
     }
   }
 }

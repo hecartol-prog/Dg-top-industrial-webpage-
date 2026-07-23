@@ -51,6 +51,9 @@ export default async function AboutPage({ params }: Props) {
             <h2 className="text-3xl">{t("chinaTitle")}</h2>
             <p className="mt-4 text-muted">{t("china")}</p>
             <p className="mt-3 font-ui text-sm text-muted">{fullAddress()}</p>
+            {loc === "es" ? (
+              <p className="mt-2 font-ui text-sm text-muted">{t("addressEs")}</p>
+            ) : null}
             <p className="mt-4 text-muted">{t("chinaExtra")}</p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
               <ImagePlaceholder

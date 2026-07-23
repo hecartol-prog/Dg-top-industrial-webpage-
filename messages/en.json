@@ -20,7 +20,7 @@
     "home": "Home"
   },
   "footer": {
-    "tagline": "Industrial Solutions Partner for complex manufacturing projects across China and Asia.",
+    "tagline": "Engineering-led Industrial Solutions Partner for complex manufacturing programs across China, Asia, and Latin America. We convert technical requirements into controlled production — DFM, APQP, PPAP, supplier qualification, and quality-managed execution.",
     "allSolutions": "All solutions",
     "allIndustries": "All industries",
     "allServices": "All services",
@@ -40,44 +40,44 @@
   },
   "home": {
     "heroBrand": "Top Industrial",
-    "heroTitle": "Industrial Manufacturing Projects. Engineered and Executed.",
-    "heroDescription": "Top Industrial partners with OEMs and industrial companies to deliver molds, components, equipment, and complex manufacturing programs through engineering oversight and a qualified Asia manufacturing network.",
+    "heroTitle": "Industrial Manufacturing Programs — Engineered, Qualified, and Executed.",
+    "heroDescription": "Top Industrial partners with OEMs, EPCs, and industrial buyers to deliver molds, components, equipment, and complete manufacturing programs. We bring engineering-led discipline — DFM, APQP, PPAP, FMEA, supplier qualification, and quality-managed execution — across a qualified Asia manufacturing network.",
     "heroImageAlt": "Industrial manufacturing environment",
     "trustYears": "15+ years of industrial project experience",
     "trustChina": "Based in Dongguan, China",
     "trustInternational": "International project delivery",
     "trustEngineering": "Engineering-led execution",
     "industriesTitle": "Industries we support",
-    "industriesDesc": "Sector-specific manufacturing programs for OEMs, plant teams, and procurement leaders.",
+    "industriesDesc": "Sector-specific manufacturing programs for OEMs, plant teams, procurement leaders, and EPC project managers — aligned to sector standards (IATF 16949, ISO 13485, ASME, AWS, ASTM) and the realities of industrial production.",
     "capabilitiesTitle": "Capabilities",
-    "capabilitiesDesc": "Technical capacity across plastics, metals, tooling, equipment, and manufacturing transfer.",
+    "capabilitiesDesc": "Technical capacity across plastics, metals, tooling, equipment, automation, and manufacturing transfer — governed by engineering discipline, qualified suppliers, and quality systems aligned to industrial expectations.",
     "servicesTitle": "Core services",
-    "servicesDesc": "From engineering review to production oversight and after-sales support.",
+    "servicesDesc": "From engineering review and DFM through supplier qualification, PPAP, production supervision, and after-sales continuity — the services that convert requirements into controlled, repeatable, documented production.",
     "whyTitle": "Why Top Industrial",
-    "whyDesc": "We operate as a technical partner responsible for project clarity, supplier qualification, and manufacturing execution—not as a broker or catalog seller.",
+    "whyDesc": "We operate as a technical partner responsible for project clarity, supplier qualification, and manufacturing execution — not as a broker, distributor, or catalog seller. Engineering discipline is our value; controlled delivery is our commitment.",
     "whyItems": {
-      "one": "Engineering review before commitment",
-      "two": "Qualified manufacturing ecosystem in China and Asia",
-      "three": "Transparent process from RFQ to shipment",
-      "four": "Quality systems aligned to industrial expectations"
+      "one": "Engineering review and DFM before any production commitment",
+      "two": "Qualified manufacturing ecosystem in China and Asia — selected by capability, not lowest price",
+      "three": "Transparent process from RFQ through inspection to shipment, with documented acceptance criteria",
+      "four": "Quality systems aligned to industrial expectations — ISO 9001 baseline, IATF 16949, ISO 13485, ASME"
     },
-    "networkTitle": "Manufacturing network",
-    "networkDesc": "A qualified network of manufacturing partners selected for process capability, quality systems, and project fit—not lowest-price listing.",
-    "engineeringTitle": "Engineering support",
-    "engineeringDesc": "Technical assessment of drawings, materials, tolerances, tooling strategy, and production risk before quotation and release.",
+    "networkTitle": "Qualified manufacturing network",
+    "networkDesc": "A qualified network of manufacturing partners selected for process capability, quality system maturity, capacity profile, and program fit — not the lowest-price listing. Each partner is qualified against program-specific criteria, with FAI and PPAP documentation maintained for series production.",
+    "engineeringTitle": "Engineering-led execution",
+    "engineeringDesc": "Technical assessment of drawings, GD&T, materials, tolerances, tooling strategy, DFM/DFA, and production risk before quotation and release. APQP phase-gate discipline; PFMEA and control plans; CTQ identification — the engineering work that prevents downstream quality cost.",
     "processTitle": "Project process",
-    "processDesc": "A clear path from requirements to after-sales support.",
-    "articlesTitle": "Latest articles",
+    "processDesc": "A structured nine-step process — from requirements definition through after-sales continuity — that reduces manufacturing risk and keeps engineering, procurement, and production aligned against a single technical baseline.",
+    "articlesTitle": "Latest technical articles",
     "testimonialsTitle": "What partners value",
     "finalTitle": "Start an industrial conversation",
-    "finalDesc": "Share your drawings, scope, or manufacturing challenge. We will respond with a structured engineering discussion.",
+    "finalDesc": "Share your drawings, scope, or manufacturing challenge. We will respond with a structured engineering discussion — scope, technical baseline, qualification plan, and the path from requirement to controlled production.",
     "metricsTitle": "Key metrics",
     "metrics": {
       "years": "15+",
       "yearsLabel": "Years of industrial project experience",
       "projects": "1,300+",
-      "projectsLabel": "Projects coordinated",
-      "sectors": "8",
+      "projectsLabel": "Projects coordinated across sectors",
+      "sectors": "11",
       "sectorsLabel": "Industry sectors served",
       "partners": "40+",
       "partnersLabel": "Qualified manufacturing partners"
@@ -85,94 +85,109 @@
   },
   "about": {
     "title": "About Top Industrial",
-    "description": "Dongguan Top Industrial and Commerce Co. Ltd is an Industrial Solutions Partner based in Dongguan, China, supporting international manufacturing projects for more than 15 years.",
+    "description": "Dongguan Top Industrial and Commerce Co. Ltd is an engineering-led Industrial Solutions Partner based in Dongguan, China, supporting international manufacturing programs for more than 15 years with technical discipline, qualified suppliers, and quality-managed execution.",
     "storyTitle": "Company story",
-    "story": "Top Industrial was built to help industrial companies execute manufacturing projects in China and Asia with engineering discipline. We coordinate molds, components, equipment, OEM/ODM programs, and manufacturing transfers through a qualified production network.",
-    "yearsTitle": "15+ years",
-    "years": "Experience across plastics, metals, industrial equipment, renewable energy systems, water treatment, automation, and custom engineering programs.",
-    "chinaTitle": "China presence",
-    "china": "Our office is located in Chashan Town, Dongguan—inside one of China’s core manufacturing regions—enabling close supervision of tooling, production, inspection, and logistics.",
-    "chinaExtra": "Dongguan is the heart of China's manufacturing belt in the Greater Bay Area, providing direct access to tooling, plastic injection, metal fabrication, electronics, and assembly supply chains within a 60-minute radius of our office.",
+    "story": "Top Industrial was built to help industrial companies execute manufacturing projects in China and Asia with engineering discipline — not transactional sourcing. We coordinate molds, components, equipment, OEM/ODM programs, and manufacturing transfers through a qualified production network selected for process capability and quality system maturity. Our role is the technical and program management layer between the buyer's intent and the supplier's execution, particularly valuable when the buyer cannot maintain full-time on-site presence and needs a technically literate, commercially disciplined partner.",
+    "yearsTitle": "15+ years of industrial project experience",
+    "years": "Experience across plastic injection molding, metal manufacturing (CNC, sheet metal, casting, forging), industrial equipment and skid packages, renewable energy systems, water and wastewater treatment, industrial automation, and custom engineering programs. We have coordinated programs for OEMs, EPCs, plant teams, and procurement leaders across automotive, medical, consumer goods, industrial equipment, energy, mining, food and beverage, packaging, electronics, construction, and water treatment sectors.",
+    "chinaTitle": "China presence — Dongguan, Greater Bay Area",
+    "china": "Our office is located in Chashan Town, Dongguan — inside one of China's core manufacturing regions — enabling close supervision of tooling, production, inspection, and logistics. We work face-to-face with manufacturing partners across the Pearl River Delta and Greater Bay Area, conducting supplier audits, FAI witness, in-process supervision, and pre-shipment inspection without the lag of remote coordination.",
+    "chinaExtra": "Dongguan sits at the heart of China's manufacturing belt in the Greater Bay Area, providing direct access to tooling, plastic injection, metal fabrication, electronics, casting, and assembly supply chains within a 60-minute radius of our office. The region's depth of manufacturing capability — from prototype tooling to high-volume series production, from precision CNC to heavy structural fabrication — is the foundation of the value we deliver to international buyers.",
+    "addressEs": "No. 41 Chatang Road, Edificio 1, Tercer Piso, Sala 302, Pueblo de Chashan, Ciudad de Dongguan, Provincia de Guangdong, República Popular China, C.P. 523308",
     "internationalTitle": "International experience",
-    "international": "We work with OEMs, procurement teams, plant managers, and project leaders across multiple markets who need reliable industrial execution—not transactional sourcing.",
+    "international": "We work with OEMs, procurement teams, plant managers, EPC project leaders, and engineering directors across multiple markets who need reliable industrial execution — not transactional sourcing. Our programs have delivered to customers across Latin America, North America, Europe, the Middle East, and Asia-Pacific. We are particularly experienced supporting cross-region programs: manufacturing transfer, nearshoring (especially Asia to Latin America), and hybrid supply models where components are sourced from multiple regions and integrated at a final assembly point.",
     "missionTitle": "Mission",
-    "mission": "To convert industrial requirements into executable manufacturing projects with technical clarity and controlled delivery.",
+    "mission": "To convert industrial requirements into executable manufacturing programs with technical clarity, qualified suppliers, and controlled delivery — applying engineering discipline (DFM, APQP, PPAP, FMEA) at every stage from concept to series production.",
     "visionTitle": "Vision",
-    "vision": "To be a trusted Industrial Solutions Partner for companies that need China and Asia manufacturing capability with engineering accountability.",
+    "vision": "To be the trusted Industrial Solutions Partner for companies that need China and Asia manufacturing capability with engineering accountability — bridging the gap between international buyer intent and regional manufacturing execution.",
     "valuesTitle": "Values",
-    "values": ["Technical honesty", "Process discipline", "Quality accountability", "Long-term partnership", "International professionalism"],
+    "values": ["Technical honesty over claim", "Process discipline over expediency", "Quality accountability over price advantage", "Long-term partnership over transaction", "International professionalism in every interaction"],
     "approachTitle": "Our approach",
-    "approach": "We start with requirements and engineering review, qualify the right manufacturing path, manage execution, and maintain quality visibility through production and shipment.",
+    "approach": "We start with requirements and engineering review (DFM, GD&T, material selection, tolerance stack-up), qualify the right manufacturing path (FAI, PPAP, supplier capability assessment), manage execution (control plan, in-process inspection, supervision during critical phases, change control), and maintain quality visibility through production and shipment (PSI, documentation pack, after-sales continuity). Engineering decisions are made before commitments; quality evidence is captured during execution; documentation supports the program's entire lifecycle.",
     "teamTitle": "Leadership",
     "teamName": "Héctor Carreño Toledo",
-    "teamRole": "Director Comercial",
-    "teamBio": "Bilingual industrial professional bridging manufacturing capability in China with project requirements across Latin America and international markets. Focused on engineering-led project execution, supplier qualification, and long-term manufacturing partnerships.",
-    "certsTitle": "Certifications and Standards",
-    "certsBody": "Our manufacturing partners operate under ISO 9001, IATF 16949, and ISO 14001 certified quality management systems. We work to industrial inspection standards including AS9102 (first article), AQL sampling plans, and customer-specific requirements.",
+    "teamRole": "Commercial Director",
+    "teamBio": "Bilingual industrial professional bridging manufacturing capability in China with project requirements across Latin America and international markets. Focused on engineering-led project execution, supplier qualification, and long-term manufacturing partnerships. Background spans automotive, industrial equipment, water treatment, and consumer goods programs — with particular depth in cross-region manufacturing transfer and nearshoring execution.",
+    "certsTitle": "Certifications, Standards & Quality Systems",
+    "certsBody": "Our manufacturing partners operate under ISO 9001 (baseline quality management), IATF 16949 (automotive), ISO 13485 (medical devices), ISO 14001 (environmental), and AS9100 (aerospace, where applicable) certified quality management systems. We work to industrial inspection standards including AS9102 (first-article inspection), AQL sampling plans (ANSI/ASQ Z1.4), customer-specific PPAP requirements (Level 1 through Level 5), and SPC methodology where required. Documentation packages include material certificates (EN 10204 3.1 / 3.2), weld procedure qualifications (AWS D1.1 / ISO 15614), hydrostatic test records (ASME B31.3), and configuration control records — configured to the buyer's receiving and regulatory requirements.",
     "whyTitle": "Why companies work with us",
-    "why": ["Need for engineering-led project ownership", "Complex multi-process manufacturing scopes", "Manufacturing transfer or nearshoring support", "Requirement for inspection and supplier qualification", "Preference for a partner, not a broker"]
+    "why": [
+      "Need for engineering-led project ownership — not a transactional supplier",
+      "Complex multi-process manufacturing scopes that require coordination across specialists",
+      "Manufacturing transfer or nearshoring execution — Asia to Latin America, or cross-region",
+      "Requirement for inspection, supplier qualification, and documented quality evidence",
+      "Preference for a partner with technical and commercial accountability — not a broker"
+    ]
   },
   "processPage": {
     "title": "Project process",
-    "description": "A structured nine-step process that reduces manufacturing risk and keeps engineering, procurement, and production aligned."
+    "description": "A structured nine-step process — from requirements definition through after-sales continuity — that reduces manufacturing risk and keeps engineering, procurement, and production aligned against a single technical baseline. Each phase has defined inputs, outputs, decision rights, and acceptance criteria."
   },
   "qualityPage": {
-    "title": "Quality",
-    "description": "Quality is managed as a continuous system—from supplier qualification and manufacturing audits to inspection and ongoing monitoring.",
+    "title": "Quality & Validation",
+    "description": "Quality is managed as a continuous system — from supplier qualification and manufacturing audits through inspection, PPAP, SPC, and ongoing monitoring. We work to industrial quality standards: ISO 9001 baseline, IATF 16949 for automotive, ISO 13485 for medical, AS9100 for aerospace where applicable. Quality is engineered into the program, not bolted on after a defect.",
     "sections": {
       "inspection": {
-        "title": "Inspection",
-        "body": "Dimensional, visual, and functional inspection aligned to drawings, standards, and agreed acceptance criteria. We develop inspection plans before production release, define critical-to-quality dimensions, and document results with photographic and dimensional records. First-article, in-process, and final inspections are available depending on project requirements."
+        "title": "Inspection & Verification",
+        "body": "Dimensional, visual, functional, and documentation verification aligned to drawings, standards, and agreed acceptance criteria. We develop inspection plans before production release — derived from the technical baseline and the Critical-to-Quality (CTQ) register. Inspection modes include incoming inspection of supplier components, in-process inspection during production, first-article inspection (FAI, AS9102-compatible format) at process launch, and pre-shipment inspection (PSI) before release. Sampling is risk-based — every CTQ dimension is verified on every part where 100% inspection is feasible; AQL sampling (ANSI/ASQ Z1.4) is applied for non-critical characteristics. Inspection records include dimensional data with measurement traceability (equipment, calibration, operator), photographic evidence of visual and cosmetic conditions, functional test results, and disposition status. Measurement System Analysis (MSA / Gage R&R) is applied where measurement uncertainty affects acceptance decisions."
       },
       "systems": {
-        "title": "Quality systems",
-        "body": "Process controls, documentation, and traceability expectations matched to industrial project requirements. We work with suppliers whose quality management systems align with ISO 9001, IATF 16949, or equivalent standards. Documentation packages include material certificates, inspection reports, traceability records, and shipment summaries configured to the buyer's receiving requirements."
+        "title": "Quality Management Systems",
+        "body": "Process controls, documentation, and traceability expectations matched to industrial project requirements. We work with suppliers whose quality management systems align with ISO 9001 (baseline), IATF 16949 (automotive), ISO 13485 (medical devices), ISO 14001 (environmental), and AS9100 (aerospace, where applicable). Documentation packages include material certificates (EN 10204 3.1 / 3.2), inspection reports, weld procedure qualifications (AWS D1.1 / ISO 15614), calibration records, traceability records (lot identification, heat numbers), and shipment summaries configured to the buyer's receiving requirements and regulatory regime. Control plans (per AIAG format where required) govern every CTQ at every production stage. PFMEA identifies process failure modes and their controls; MSA / Gage R&R verifies measurement system adequacy; SPC tracks critical characteristics during series production where statistical process control adds value."
       },
       "supplier": {
-        "title": "Supplier qualification",
-        "body": "Capability, capacity, and quality-system evaluation before production commitment. Our qualification process includes manufacturing process review, equipment assessment, workforce capability verification, and quality-system documentation audit. Only suppliers who demonstrate consistent capability against the specific process and tolerance requirements of a project are approved for production."
+        "title": "Supplier Qualification",
+        "body": "Capability, capacity, and quality-system evaluation before production commitment — not a generic audit, but a structured assessment against the specific process, material, tolerance, and volume requirements of the program. Our qualification process covers four dimensions: manufacturing process capability (equipment list, age, condition, capability studies on relevant processes with Cpk/Ppk targets), quality system maturity (control plan, MSA, calibration, traceability, nonconformance management, corrective action effectiveness), operational capacity (capacity loading, lead time, second-source resilience), and program execution (project management, change control, escalation paths, communication discipline). First-article inspection (FAI, AS9102-compatible) is executed at process launch; PPAP submission (Level 1–5 per customer requirement) is provided where applicable. Only suppliers who demonstrate consistent capability against the specific requirements of a program are approved for production."
       },
       "audits": {
-        "title": "Manufacturing audits",
-        "body": "On-site and process audits to verify readiness, equipment, workforce, and control plans. Audits are conducted before production release and may include process capability studies, environmental controls verification, and operator competency assessment. Findings are documented and corrective actions confirmed before production authorization."
+        "title": "Factory Audits & Process Capability Studies",
+        "body": "On-site and hybrid audits to verify readiness, equipment, workforce, control plans, and program execution maturity — scoped to program requirements, not generic ISO-style checklists. Audits cover four areas in depth: manufacturing capability (equipment list, age, condition, capability studies on relevant processes), quality system (control plans, MSA, calibration, traceability, nonconformance logs, corrective action history), program execution (project management discipline, change control, escalation paths, communication), and operational maturity (workforce stability, financial indicators, business continuity). Findings are documented with photographic evidence, categorized by severity (critical, major, minor), and reviewed with the supplier at a closing meeting. A formal audit report is issued with corrective action plan and verification of effectiveness before production authorization. Audits can be combined with first-article inspection or process capability study for additional evidence — particularly valuable for first-time supplier engagement or significant volume increase."
       },
       "monitoring": {
-        "title": "Continuous monitoring",
-        "body": "Production follow-up, issue escalation, and corrective action through delivery and after-sales. We maintain visibility on production progress, conduct sample reviews during production runs, and manage non-conformance through documented root-cause analysis and corrective-action cycles. Post-delivery support includes field feedback integration and supplier performance tracking."
+        "title": "Continuous Monitoring & After-Sales",
+        "body": "Production follow-up, issue escalation, and corrective action through delivery and after-sales — keeping quality visible throughout the program lifecycle. We maintain visibility on production progress, conduct sample reviews during production runs, and manage non-conformance through documented root-cause analysis and corrective-action cycles (8D methodology where applicable). Supplier performance is tracked on PPM defect rate, on-time delivery, and responsiveness to issues — quarterly business reviews surface trends and improvement opportunities. Post-delivery support includes field feedback integration, spare-parts readiness, and supplier performance trending — closing the loop between what was specified, what was produced, and what the field experienced. After-sales is not an afterthought; it is the continuity that protects the program's value over its lifecycle."
+      },
+      "ppap": {
+        "title": "PPAP & APQP",
+        "body": "Production Part Approval Process (PPAP) and Advanced Product Quality Planning (APQP) are not automotive-only formalities — they are practical frameworks for managing the transition from design to series production in any industrial program that needs documented evidence of process qualification. APQP structures the program: phase 0 (concept), phase 1 (product design), phase 2 (process design), phase 3 (validation), phase 4 (launch and ramp-up) — with gate reviews between phases. PPAP captures the evidence: design record, engineering change documents, customer engineering approval, DFMEA, PFMEA, control plan, MSA, dimensional results, material/performance test results, initial process studies (Cpk ≥ 1.33 for series production, Ppk ≥ 1.67 for new processes), qualified laboratory documentation, appearance approval, sample product, master sample, checking aids, customer-specific requirements, and Part Submission Warrant (PSW). The level of submission (Level 1–5) is agreed with the customer. We apply these frameworks scaled to the program's risk profile — not as bureaucratic overhead, but as the structure that makes the difference between a controlled production launch and a quality experiment."
+      },
+      "fmea": {
+        "title": "FMEA & Risk Management",
+        "body": "Failure Mode and Effects Analysis (FMEA) is the structured technique for anticipating failure modes before they occur — Design FMEA (DFMEA) addresses product design risks; Process FMEA (PFMEA) addresses process execution risks. We facilitate FMEA with the program team and the supplier: identify potential failure modes, assess severity, occurrence, and detection, calculate Risk Priority Number (RPN), and define mitigation actions for high-risk items. DFMEA is applied during the design phase — surfacing design changes that reduce failure risk before tooling is committed. PFMEA is applied during the process design phase — surfacing process controls that detect or prevent failure modes during production. The output is a living document, reviewed at every gate and updated as the program learns. FMEA is not a one-time exercise; it is the structured thinking that converts 'we hope it works' into 'we have anticipated the failure modes and have controls in place.'"
       }
     }
   },
   "capabilitiesPage": {
     "title": "Capabilities",
-    "description": "Cross-disciplinary manufacturing and engineering capabilities for industrial projects that require more than a single process or supplier."
+    "description": "Cross-disciplinary manufacturing and engineering capabilities for industrial projects that require more than a single process or supplier. Each capability is qualified through supplier assessment, FAI, and (where applicable) PPAP — and governed through the program management methodology."
   },
   "industriesPage": {
     "title": "Industries",
-    "description": "Industrial programs tailored to sector requirements, compliance expectations, and production realities."
+    "description": "Industrial programs tailored to sector requirements, compliance expectations (IATF 16949, ISO 13485, ASME, AWS, ASTM), and the production realities of each sector — from automotive launch discipline to mining wear-life engineering to medical device documentation."
   },
   "solutionsPage": {
     "title": "Solutions",
-    "description": "Manufacturing solutions spanning plastics, metals, equipment, energy, water treatment, automation, and custom programs."
+    "description": "Manufacturing solutions spanning plastic injection, metal manufacturing, industrial equipment, renewable energy, water treatment, automation, packaging, and custom programs — each with qualified process routes and validation methodology."
   },
   "servicesPage": {
     "title": "Services",
-    "description": "Engineering, qualification, project management, quality, and supply-chain services that turn requirements into executable projects."
+    "description": "Engineering, qualification, project management, quality, and supply-chain services that turn requirements into executable programs — applying DFM, APQP, PPAP, FMEA, and supplier qualification discipline at every stage."
   },
   "caseStudiesPage": {
     "title": "Case studies",
-    "description": "Representative industrial projects illustrating engineering approach, execution, and controlled outcomes."
+    "description": "Representative industrial projects illustrating engineering approach, execution, and controlled outcomes — with documented evidence of capability studies, FAI, PPAP, and dimensional continuity."
   },
   "blogPage": {
-    "title": "Blog",
-    "description": "Practical articles on manufacturing, China production, engineering, procurement, nearshoring, and supply chain."
+    "title": "Technical articles",
+    "description": "Practical articles on manufacturing, China production, engineering (DFM, APQP, PPAP, FMEA), procurement, nearshoring, and supply chain resilience — written for engineering, procurement, and operations leaders."
   },
   "resourcesPage": {
     "title": "Resources",
-    "description": "Checklists and guides to prepare RFQs, audits, drawing packages, and manufacturing transfers."
+    "description": "Checklists and guides to prepare RFQs, audits, drawing packages, and manufacturing transfers — practical engineering tools you can use."
   },
   "contactPage": {
     "title": "Contact",
-    "description": "Reach our Dongguan office by email, WhatsApp, or LinkedIn, or send a message through the form below. For exploratory project discussions, request a consultation; for drawing packages and BOMs, use the RFQ form.",
+    "description": "Reach our Dongguan office by email, WhatsApp, or LinkedIn, or send a message through the form below. For exploratory project discussions, request a consultation; for drawing packages and BOMs, use the RFQ form — both are routed to our engineering team for structured response.",
     "channels": "Direct channels",
     "address": "Office address",
     "consultationLink": "Prefer a structured meeting? Request a consultation.",
@@ -180,12 +195,12 @@
   },
   "consultationPage": {
     "title": "Request a Consultation",
-    "description": "Schedule an exploratory conversation about your manufacturing project, supplier needs, or nearshoring plans. For drawing-heavy quotation requests, use the RFQ form.",
+    "description": "Schedule an exploratory conversation about your manufacturing project, supplier needs, or nearshoring plans. For drawing-heavy quotation requests, use the RFQ form — both are reviewed by our engineering team.",
     "rfqLink": "Need to submit drawings or a BOM? Go to RFQ."
   },
   "rfqPage": {
     "title": "Request for quotation",
-    "description": "Submit project details, target quantity, destination country, timeline, and engineering files for review."
+    "description": "Submit project details, target quantity, destination country, timeline, and engineering files for review. The more complete the technical baseline, the more comparable the response — see our manufacturing readiness article for guidance."
   },
   "privacyPage": {
     "title": "Privacy policy",
@@ -234,25 +249,25 @@
   },
   "cta": {
     "qualityTitle": "Discuss your quality requirements",
-    "qualityDesc": "Share inspection criteria, documentation expectations, or supplier qualification needs. We will outline a practical quality path for your project.",
+    "qualityDesc": "Share inspection criteria, documentation expectations, PPAP/APQP requirements, or supplier qualification needs. We will outline a practical quality path for your project — from FAI through series production.",
     "processTitle": "Start a project",
-    "processDesc": "Begin with a structured engineering discussion so scope, risks, and next steps are clear before production commitment.",
+    "processDesc": "Begin with a structured engineering discussion so scope, technical baseline, qualification plan, and risks are clear before any production commitment. The earlier we engage, the more manufacturability risk we can retire before it becomes cost.",
     "casesTitle": "Discuss a similar project",
-    "casesDesc": "Tell us about a comparable manufacturing challenge. We will review feasibility and recommend an execution approach.",
+    "casesDesc": "Tell us about a comparable manufacturing challenge. We will review feasibility, recommend an execution approach, and define the qualification plan that gives you confidence before commitment.",
     "aboutTitle": "Start a conversation",
-    "aboutDesc": "Whether you need China manufacturing support, supplier qualification, or nearshoring guidance, we are ready to discuss your requirements."
+    "aboutDesc": "Whether you need China manufacturing support, supplier qualification, manufacturing transfer, or nearshoring execution, we are ready to discuss your requirements with engineering and commercial discipline."
   },
   "testimonials": {
     "one": {
-      "quote": "The engineering review clarified tooling risk before we committed to production.",
+      "quote": "The engineering review and DFM analysis surfaced tooling and tolerance risk before we committed to production — saving us from a quality experiment that would have cost us the launch window.",
       "role": "Engineering Manager, Industrial Equipment OEM"
     },
     "two": {
-      "quote": "We needed coordinated quality oversight across multiple processes, not a simple purchase order.",
-      "role": "Procurement Director, Consumer Products"
+      "quote": "We needed coordinated quality oversight across multiple processes and multiple suppliers, not a simple purchase order. Their PPAP discipline and inspection regime gave us the evidence base our customers required.",
+      "role": "Procurement Director, Consumer Products Manufacturer"
     },
     "three": {
-      "quote": "Their process made the manufacturing transfer structured and measurable.",
+      "quote": "Their manufacturing transfer methodology made the move structured, measurable, and dimensionally continuous — the customer never saw the change. That is what real transfer execution looks like.",
       "role": "Operations Director, Packaging Manufacturer"
     }
   }

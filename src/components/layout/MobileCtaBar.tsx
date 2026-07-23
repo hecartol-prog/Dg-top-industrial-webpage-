@@ -6,6 +6,7 @@ import { siteConfig } from "@/lib/site";
 
 export function MobileCtaBar() {
   const t = useTranslations("nav");
+  const tc = useTranslations("common");
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-3 border-t border-border bg-white md:hidden">
@@ -21,7 +22,7 @@ export function MobileCtaBar() {
         rel="noopener noreferrer"
         className="py-3 text-center text-xs text-foreground"
       >
-        WhatsApp
+        {tc("whatsapp")}
       </a>
     </div>
   );

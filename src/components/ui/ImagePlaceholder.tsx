@@ -7,6 +7,8 @@ type Props = {
   aspect?: "video" | "wide" | "square" | "tall";
   className?: string;
   tone?: "light" | "dark";
+  /** Subtle caption under the icon instead of a large centered label */
+  captionStyle?: boolean;
 };
 
 const aspectClass = {
@@ -22,11 +24,27 @@ export function ImagePlaceholder({
   aspect = "wide",
   className = "",
   tone = "light",
+  captionStyle = false,
 }: Props) {
   const surface =
     tone === "dark"
       ? "bg-[#1a2340] text-white/70"
       : "bg-gray-100 text-muted";
+
+  if (captionStyle) {
+    return (
+      <div
+        className={`relative flex flex-col items-center justify-center gap-3 overflow-hidden rounded-lg border border-gray-200 bg-gray-100 ${aspectClass[aspect]} ${className}`}
+        role="img"
+        aria-label={label}
+      >
+        <Icon className="h-12 w-12 text-gray-300" strokeWidth={1.25} aria-hidden />
+        <span className="max-w-[90%] truncate px-4 text-center font-ui text-sm text-gray-400">
+          {label}
+        </span>
+      </div>
+    );
+  }
 
   return (
     <div

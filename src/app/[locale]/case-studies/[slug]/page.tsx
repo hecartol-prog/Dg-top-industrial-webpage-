@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { Building2, CheckCircle2, Factory, Layers } from "lucide-react";
+import { Building2, CheckCircle2, ImageIcon, Layers } from "lucide-react";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { CtaGroup } from "@/components/ui/CtaGroup";
 import { PageIntro } from "@/components/ui/PageIntro";
@@ -46,7 +46,6 @@ export default async function CaseStudyDetailPage({ params }: Props) {
   const item = getCaseStudyBySlug(loc, slug);
   if (!item) notFound();
 
-  const t = await getTranslations("caseStudiesPage");
   const tn = await getTranslations("nav");
   const tc = await getTranslations("common");
   const tcta = await getTranslations("cta");
@@ -58,13 +57,18 @@ export default async function CaseStudyDetailPage({ params }: Props) {
       <Breadcrumbs
         items={[
           { label: tn("home"), href: "/" },
-          { label: t("title"), href: "/case-studies" },
+          { label: tn("caseStudies"), href: "/case-studies" },
           { label: item.title[loc] },
         ]}
       />
       <PageIntro title={item.title[loc]} description={item.challenge[loc]} />
       <div className="container-site space-y-10 pb-20">
-        <ImagePlaceholder label={item.title[loc]} icon={Factory} aspect="wide" />
+        <ImagePlaceholder
+          label={item.title[loc]}
+          icon={ImageIcon}
+          aspect="video"
+          captionStyle
+        />
 
         <div className="grid gap-4 border-b border-border bg-gray-50 p-5 sm:grid-cols-3">
           <div className="flex items-start gap-3">

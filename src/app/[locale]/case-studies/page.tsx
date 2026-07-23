@@ -34,7 +34,7 @@ export default async function CaseStudiesPage({ params }: Props) {
 
   return (
     <>
-      <Breadcrumbs items={[{ label: tn("home"), href: "/" }, { label: t("title") }]} />
+      <Breadcrumbs items={[{ label: tn("home"), href: "/" }, { label: tn("caseStudies") }]} />
       <PageIntro title={t("title")} description={t("description")} />
       <div className="container-site space-y-6 pb-20">
         {caseStudies.map((item, index) => (

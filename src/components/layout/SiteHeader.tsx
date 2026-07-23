@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
@@ -30,6 +30,7 @@ const allNav = [...primaryNav, ...secondaryNav];
 export function SiteHeader() {
   const t = useTranslations("nav");
   const tf = useTranslations("footer");
+  const locale = useLocale();
   const [open, setOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
   const moreRef = useRef<HTMLDivElement>(null);
@@ -42,9 +43,19 @@ export function SiteHeader() {
     return () => document.removeEventListener("mousedown", onDocClick);
   }, []);
 
+  useEffect(() => {
+    setOpen(false);
+    setMoreOpen(false);
+  }, [locale]);
+
+  function labelFor(key: (typeof secondaryNav)[number]["key"] | (typeof primaryNav)[number]["key"]) {
+    if (key === "privacy" || key === "terms") return tf(key);
+    return t(key);
+  }
+
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-white/95 backdrop-blur">
-      <div className="container-site flex items-center justify-between gap-3 py-2.5 lg:gap-4 lg:py-3">
+      <div className="container-site flex items-center justify-between gap-3 py-2.5 lg:gap-3 lg:py-3">
         <Link href="/" className="flex shrink-0 items-center" onClick={() => setOpen(false)}>
           <Image
             src="/logo.png"
@@ -57,7 +68,7 @@ export function SiteHeader() {
         </Link>
 
         <nav
-          className="hidden min-w-0 flex-1 items-center justify-center gap-x-4 xl:flex 2xl:gap-x-5"
+          className="hidden min-w-0 flex-1 items-center justify-center gap-x-3 lg:flex xl:gap-x-4"
           aria-label="Primary"
         >
           {primaryNav.map((item) => (
@@ -89,9 +100,7 @@ export function SiteHeader() {
                     className="block px-4 py-2 font-ui text-sm text-foreground/80 hover:bg-surface hover:text-brand"
                     onClick={() => setMoreOpen(false)}
                   >
-                    {item.key === "privacy" || item.key === "terms"
-                      ? tf(item.key)
-                      : t(item.key)}
+                    {labelFor(item.key)}
                   </Link>
                 ))}
               </div>
@@ -99,7 +108,7 @@ export function SiteHeader() {
           </div>
         </nav>
 
-        <div className="hidden shrink-0 items-center gap-2 font-ui lg:flex xl:gap-2.5">
+        <div className="hidden shrink-0 items-center gap-2 font-ui lg:flex">
           <LanguageSwitcher />
           <Link
             href="/consultation"
@@ -117,7 +126,7 @@ export function SiteHeader() {
 
         <button
           type="button"
-          className="border border-border px-2.5 py-1.5 font-ui text-sm xl:hidden"
+          className="border border-border px-2.5 py-1.5 font-ui text-sm lg:hidden"
           aria-expanded={open}
           aria-controls="mobile-nav"
           onClick={() => setOpen((v) => !v)}
@@ -127,7 +136,7 @@ export function SiteHeader() {
       </div>
 
       {open ? (
-        <div id="mobile-nav" className="border-t border-border bg-white xl:hidden">
+        <div id="mobile-nav" className="border-t border-border bg-white lg:hidden">
           <nav className="container-site flex flex-col gap-0.5 py-3 font-ui" aria-label="Mobile">
             {allNav.map((item) => (
               <Link
@@ -136,9 +145,7 @@ export function SiteHeader() {
                 className="py-2.5 text-sm text-foreground/85"
                 onClick={() => setOpen(false)}
               >
-                {item.key === "privacy" || item.key === "terms"
-                  ? tf(item.key)
-                  : t(item.key)}
+                {labelFor(item.key)}
               </Link>
             ))}
             <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-border pt-3">
