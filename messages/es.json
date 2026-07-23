@@ -1,0 +1,259 @@
+{
+  "nav": {
+    "about": "Nosotros",
+    "industries": "Industrias",
+    "solutions": "Soluciones",
+    "services": "Servicios",
+    "capabilities": "Capacidades",
+    "caseStudies": "Casos de éxito",
+    "process": "Proceso",
+    "quality": "Calidad",
+    "blog": "Blog",
+    "resources": "Recursos",
+    "contact": "Contacto",
+    "consultation": "Solicitar consulta",
+    "consultationShort": "Consulta",
+    "rfq": "RFQ",
+    "more": "Más",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "home": "Inicio"
+  },
+  "footer": {
+    "tagline": "Socio de soluciones industriales para proyectos de manufactura complejos en China y Asia.",
+    "allSolutions": "Todas las soluciones",
+    "allIndustries": "Todas las industrias",
+    "allServices": "Todos los servicios",
+    "insights": "Insights",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "shortAddress": "Chashan, Dongguan, Guangdong, China"
+  },
+  "common": {
+    "learnMore": "Más información",
+    "viewAll": "Ver todo",
+    "relatedSolutions": "Soluciones relacionadas",
+    "relatedServices": "Servicios relacionados",
+    "relatedIndustries": "Industrias relacionadas",
+    "whatsapp": "WhatsApp",
+    "backTo": "Volver a"
+  },
+  "home": {
+    "heroBrand": "Top Industrial",
+    "heroTitle": "Proyectos de manufactura industrial. Diseñados y ejecutados.",
+    "heroDescription": "Top Industrial colabora con OEMs y empresas industriales para entregar moldes, componentes, equipos y programas de manufactura complejos mediante supervisión de ingeniería y una red calificada de manufactura en Asia.",
+    "heroImageAlt": "Entorno de manufactura industrial",
+    "trustYears": "Más de 15 años de experiencia en proyectos industriales",
+    "trustChina": "Con sede en Dongguan, China",
+    "trustInternational": "Entrega de proyectos internacionales",
+    "trustEngineering": "Ejecución liderada por ingeniería",
+    "industriesTitle": "Industrias que apoyamos",
+    "industriesDesc": "Programas de manufactura específicos por sector para OEMs, plantas y líderes de compras.",
+    "capabilitiesTitle": "Capacidades",
+    "capabilitiesDesc": "Capacidad técnica en plásticos, metales, herramentales, equipos y transferencia de manufactura.",
+    "servicesTitle": "Servicios principales",
+    "servicesDesc": "Desde revisión de ingeniería hasta supervisión de producción y soporte postventa.",
+    "whyTitle": "Por qué Top Industrial",
+    "whyDesc": "Operamos como socio técnico responsable de la claridad del proyecto, calificación de proveedores y ejecución de manufactura—no como intermediario ni vendedor de catálogo.",
+    "whyItems": {
+      "one": "Revisión de ingeniería antes del compromiso",
+      "two": "Ecosistema de manufactura calificado en China y Asia",
+      "three": "Proceso transparente desde RFQ hasta envío",
+      "four": "Sistemas de calidad alineados a expectativas industriales"
+    },
+    "networkTitle": "Red de manufactura",
+    "networkDesc": "Una red calificada de socios de manufactura seleccionados por capacidad de proceso, sistemas de calidad y adecuación al proyecto—no por el precio más bajo.",
+    "engineeringTitle": "Soporte de ingeniería",
+    "engineeringDesc": "Evaluación técnica de planos, materiales, tolerancias, estrategia de herramental y riesgo de producción antes de cotizar y liberar.",
+    "processTitle": "Proceso del proyecto",
+    "processDesc": "Una ruta clara desde requisitos hasta soporte postventa.",
+    "articlesTitle": "Artículos recientes",
+    "testimonialsTitle": "Lo que valoran nuestros socios",
+    "finalTitle": "Inicie una conversación industrial",
+    "finalDesc": "Comparta sus planos, alcance o desafío de manufactura. Responderemos con una discusión de ingeniería estructurada.",
+    "metricsTitle": "Indicadores clave",
+    "metrics": {
+      "years": "15+",
+      "yearsLabel": "Años de experiencia en proyectos industriales",
+      "projects": "1,300+",
+      "projectsLabel": "Proyectos coordinados",
+      "sectors": "8",
+      "sectorsLabel": "Sectores industriales atendidos",
+      "partners": "40+",
+      "partnersLabel": "Socios de manufactura calificados"
+    }
+  },
+  "about": {
+    "title": "Sobre Top Industrial",
+    "description": "Dongguan Top Industrial and Commerce Co. Ltd es un Socio de Soluciones Industriales con sede en Dongguan, China, que apoya proyectos internacionales de manufactura desde hace más de 15 años.",
+    "storyTitle": "Historia de la empresa",
+    "story": "Top Industrial se creó para ayudar a empresas industriales a ejecutar proyectos de manufactura en China y Asia con disciplina de ingeniería. Coordinamos moldes, componentes, equipos, programas OEM/ODM y transferencias de manufactura a través de una red de producción calificada.",
+    "yearsTitle": "Más de 15 años",
+    "years": "Experiencia en plásticos, metales, equipos industriales, sistemas de energía renovable, tratamiento de agua, automatización y programas de ingeniería a medida.",
+    "chinaTitle": "Presencia en China",
+    "china": "Nuestra oficina está en Chashan, Dongguan—dentro de una de las regiones manufactureras clave de China—lo que permite supervisión cercana de herramental, producción, inspección y logística.",
+    "chinaExtra": "Dongguan es el corazón del cinturón manufacturero de China en el Área de la Gran Bahía, con acceso directo a cadenas de suministro de herramentales, inyección de plástico, fabricación metálica, electrónica y ensamblaje en un radio de 60 minutos de nuestra oficina.",
+    "internationalTitle": "Experiencia internacional",
+    "international": "Trabajamos con OEMs, equipos de compras, gerentes de planta y líderes de proyecto en múltiples mercados que necesitan ejecución industrial confiable—no sourcing transaccional.",
+    "missionTitle": "Misión",
+    "mission": "Convertir requisitos industriales en proyectos de manufactura ejecutables con claridad técnica y entrega controlada.",
+    "visionTitle": "Visión",
+    "vision": "Ser un Socio de Soluciones Industriales de confianza para empresas que necesitan capacidad de manufactura en China y Asia con responsabilidad de ingeniería.",
+    "valuesTitle": "Valores",
+    "values": ["Honestidad técnica", "Disciplina de proceso", "Responsabilidad de calidad", "Asociación a largo plazo", "Profesionalismo internacional"],
+    "approachTitle": "Nuestro enfoque",
+    "approach": "Comenzamos con requisitos y revisión de ingeniería, calificamos la ruta de manufactura adecuada, gestionamos la ejecución y mantenemos visibilidad de calidad durante producción y envío.",
+    "teamTitle": "Liderazgo",
+    "teamName": "Héctor Carreño Toledo",
+    "teamRole": "Director Comercial",
+    "teamBio": "Profesional industrial bilingüe que conecta la capacidad de manufactura en China con los requisitos de proyectos en América Latina y mercados internacionales. Enfocado en ejecución de proyectos liderada por ingeniería, calificación de proveedores y asociaciones de manufactura a largo plazo.",
+    "certsTitle": "Certificaciones y Estándares",
+    "certsBody": "Nuestros socios de manufactura operan bajo sistemas de gestión de calidad certificados ISO 9001, IATF 16949 e ISO 14001. Trabajamos con estándares de inspección industrial que incluyen AS9102 (primer artículo), planes de muestreo AQL y requisitos específicos del cliente.",
+    "whyTitle": "Por qué trabajan con nosotros",
+    "why": ["Necesidad de propiedad del proyecto liderada por ingeniería", "Alcances complejos de manufactura multiproceso", "Transferencia de manufactura o soporte de nearshoring", "Requisito de inspección y calificación de proveedores", "Preferencia por un socio, no un intermediario"]
+  },
+  "processPage": {
+    "title": "Proceso del proyecto",
+    "description": "Un proceso estructurado de nueve pasos que reduce el riesgo de manufactura y mantiene alineados ingeniería, compras y producción."
+  },
+  "qualityPage": {
+    "title": "Calidad",
+    "description": "La calidad se gestiona como un sistema continuo—desde la calificación de proveedores y auditorías de manufactura hasta la inspección y el monitoreo permanente.",
+    "sections": {
+      "inspection": {
+        "title": "Inspección",
+        "body": "Inspección dimensional, visual y funcional alineada a planos, normas y criterios de aceptación acordados. Desarrollamos planes de inspección antes de la liberación a producción, definimos dimensiones críticas para la calidad y documentamos resultados con registros fotográficos y dimensionales. Según los requisitos del proyecto, están disponibles inspecciones de primer artículo, en proceso y finales."
+      },
+      "systems": {
+        "title": "Sistemas de calidad",
+        "body": "Controles de proceso, documentación y trazabilidad acordes a los requisitos del proyecto industrial. Trabajamos con proveedores cuyos sistemas de gestión de calidad se alinean con ISO 9001, IATF 16949 o normas equivalentes. Los paquetes de documentación incluyen certificados de material, informes de inspección, registros de trazabilidad y resúmenes de envío configurados a los requisitos de recepción del comprador."
+      },
+      "supplier": {
+        "title": "Calificación de proveedores",
+        "body": "Evaluación de capacidad, capacidad productiva y sistemas de calidad antes del compromiso de producción. Nuestro proceso de calificación incluye revisión del proceso de manufactura, evaluación de equipo, verificación de la capacidad de la fuerza laboral y auditoría de la documentación del sistema de calidad. Solo se aprueban para producción los proveedores que demuestran capacidad consistente frente a los requisitos específicos de proceso y tolerancia del proyecto."
+      },
+      "audits": {
+        "title": "Auditorías de manufactura",
+        "body": "Auditorías en sitio y de proceso para verificar preparación, equipo, personal y planes de control. Las auditorías se realizan antes de la liberación a producción y pueden incluir estudios de capacidad de proceso, verificación de controles ambientales y evaluación de competencia de operadores. Los hallazgos se documentan y las acciones correctivas se confirman antes de autorizar la producción."
+      },
+      "monitoring": {
+        "title": "Monitoreo continuo",
+        "body": "Seguimiento de producción, escalamiento de incidencias y acciones correctivas hasta la entrega y postventa. Mantenemos visibilidad del avance de producción, realizamos revisiones de muestras durante las corridas y gestionamos no conformidades mediante análisis documentado de causa raíz y ciclos de acción correctiva. El soporte postentrega incluye integración de retroalimentación de campo y seguimiento del desempeño de proveedores."
+      }
+    }
+  },
+  "capabilitiesPage": {
+    "title": "Capacidades",
+    "description": "Capacidades de manufactura e ingeniería multidisciplinarias para proyectos industriales que requieren más de un proceso o proveedor."
+  },
+  "industriesPage": {
+    "title": "Industrias",
+    "description": "Programas industriales adaptados a requisitos sectoriales, expectativas de cumplimiento y realidades de producción."
+  },
+  "solutionsPage": {
+    "title": "Soluciones",
+    "description": "Soluciones de manufactura en plásticos, metales, equipos, energía, tratamiento de agua, automatización y programas a medida."
+  },
+  "servicesPage": {
+    "title": "Servicios",
+    "description": "Servicios de ingeniería, calificación, gestión de proyectos, calidad y cadena de suministro que convierten requisitos en proyectos ejecutables."
+  },
+  "caseStudiesPage": {
+    "title": "Casos de éxito",
+    "description": "Proyectos industriales representativos que ilustran enfoque de ingeniería, ejecución y resultados controlados."
+  },
+  "blogPage": {
+    "title": "Blog",
+    "description": "Artículos prácticos sobre manufactura, producción en China, ingeniería, compras, nearshoring y cadena de suministro."
+  },
+  "resourcesPage": {
+    "title": "Recursos",
+    "description": "Listas de verificación y guías para preparar RFQs, auditorías, paquetes de planos y transferencias de manufactura."
+  },
+  "contactPage": {
+    "title": "Contacto",
+    "description": "Comuníquese con nuestra oficina en Dongguan por correo, WhatsApp o LinkedIn, o envíe un mensaje mediante el formulario. Para conversaciones exploratorias, solicite una consulta; para paquetes de planos y BOM, use el formulario RFQ.",
+    "channels": "Canales directos",
+    "address": "Dirección de la oficina",
+    "consultationLink": "¿Prefiere una reunión estructurada? Solicite una consulta.",
+    "rfqLink": "¿Necesita enviar planos o un BOM? Vaya a RFQ."
+  },
+  "consultationPage": {
+    "title": "Solicitar consulta",
+    "description": "Programe una conversación exploratoria sobre su proyecto de manufactura, necesidades de proveedores o planes de nearshoring. Para solicitudes de cotización con planos, use el formulario RFQ.",
+    "rfqLink": "¿Necesita enviar planos o un BOM? Vaya a RFQ."
+  },
+  "rfqPage": {
+    "title": "Solicitud de cotización",
+    "description": "Envíe detalles del proyecto, cantidad objetivo, país de destino, cronograma y archivos de ingeniería para revisión."
+  },
+  "privacyPage": {
+    "title": "Política de privacidad",
+    "body": "Recopilamos información de contacto y del proyecto enviada mediante nuestros formularios únicamente para evaluar consultas industriales y responder. Los archivos cargados se usan para revisión de ingeniería y cotización. No vendemos datos personales. Contáctenos para solicitar corrección o eliminación de su información."
+  },
+  "termsPage": {
+    "title": "Términos de uso",
+    "body": "Este sitio web proporciona información general sobre las capacidades y servicios de Top Industrial. Enviar una consulta o RFQ no crea un contrato. Los términos del proyecto, confidencialidad, precios y compromisos de entrega se definen únicamente en acuerdos comerciales escritos."
+  },
+  "forms": {
+    "contact": {
+      "name": "Nombre completo",
+      "email": "Correo corporativo",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando..."
+    },
+    "consultation": {
+      "name": "Nombre completo",
+      "email": "Correo corporativo",
+      "company": "Empresa",
+      "meetingTime": "Horario preferido de reunión",
+      "meetingPlaceholder": "p. ej. mar 10:00 CST o su zona horaria local",
+      "message": "¿Cómo podemos ayudar?",
+      "submit": "Solicitar consulta",
+      "sending": "Enviando..."
+    },
+    "rfq": {
+      "name": "Nombre completo",
+      "email": "Correo corporativo",
+      "company": "Empresa",
+      "projectType": "Tipo de proyecto",
+      "quantity": "Cantidad objetivo",
+      "country": "País de destino",
+      "timeline": "Cronograma",
+      "description": "Descripción del proyecto",
+      "files": "Cargar planos, especificaciones, BOM, PDF",
+      "filesHint": "Aceptados: PDF, CAD, Office, imágenes. Se permiten múltiples archivos.",
+      "nda": "Si se requiere un NDA antes del intercambio de archivos, indíquelo en la descripción y lo coordinaremos.",
+      "select": "Seleccionar",
+      "submit": "Enviar RFQ",
+      "sending": "Enviando...",
+      "nearshoring": "Soporte de Nearshoring / Transferencia de manufactura a América Latina"
+    }
+  },
+  "cta": {
+    "qualityTitle": "Discuta sus requisitos de calidad",
+    "qualityDesc": "Comparta criterios de inspección, expectativas de documentación o necesidades de calificación de proveedores. Definiremos una ruta de calidad práctica para su proyecto.",
+    "processTitle": "Inicie un proyecto",
+    "processDesc": "Comience con una discusión de ingeniería estructurada para que alcance, riesgos y siguientes pasos queden claros antes del compromiso de producción.",
+    "casesTitle": "Discuta un proyecto similar",
+    "casesDesc": "Cuéntenos sobre un desafío de manufactura comparable. Revisaremos la factibilidad y recomendaremos un enfoque de ejecución.",
+    "aboutTitle": "Inicie una conversación",
+    "aboutDesc": "Ya sea que necesite soporte de manufactura en China, calificación de proveedores o orientación de nearshoring, estamos listos para hablar sobre sus requisitos."
+  },
+  "testimonials": {
+    "one": {
+      "quote": "La revisión de ingeniería aclaró el riesgo de herramental antes de comprometernos con la producción.",
+      "role": "Gerente de Ingeniería, OEM de equipos industriales"
+    },
+    "two": {
+      "quote": "Necesitábamos supervisión de calidad coordinada en múltiples procesos, no una simple orden de compra.",
+      "role": "Director de Compras, Productos de consumo"
+    },
+    "three": {
+      "quote": "Su proceso hizo que la transferencia de manufactura fuera estructurada y medible.",
+      "role": "Director de Operaciones, Fabricante de empaque"
+    }
+  }
+}

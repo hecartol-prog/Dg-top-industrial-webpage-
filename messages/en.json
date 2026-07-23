@@ -1,0 +1,259 @@
+{
+  "nav": {
+    "about": "About",
+    "industries": "Industries",
+    "solutions": "Solutions",
+    "services": "Services",
+    "capabilities": "Capabilities",
+    "caseStudies": "Case Studies",
+    "process": "Process",
+    "quality": "Quality",
+    "blog": "Blog",
+    "resources": "Resources",
+    "contact": "Contact",
+    "consultation": "Request a Consultation",
+    "consultationShort": "Consultation",
+    "rfq": "RFQ",
+    "more": "More",
+    "menu": "Menu",
+    "close": "Close",
+    "home": "Home"
+  },
+  "footer": {
+    "tagline": "Industrial Solutions Partner for complex manufacturing projects across China and Asia.",
+    "allSolutions": "All solutions",
+    "allIndustries": "All industries",
+    "allServices": "All services",
+    "insights": "Insights",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "shortAddress": "Chashan Town, Dongguan, Guangdong, China"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "relatedSolutions": "Related solutions",
+    "relatedServices": "Related services",
+    "relatedIndustries": "Related industries",
+    "whatsapp": "WhatsApp",
+    "backTo": "Back to"
+  },
+  "home": {
+    "heroBrand": "Top Industrial",
+    "heroTitle": "Industrial Manufacturing Projects. Engineered and Executed.",
+    "heroDescription": "Top Industrial partners with OEMs and industrial companies to deliver molds, components, equipment, and complex manufacturing programs through engineering oversight and a qualified Asia manufacturing network.",
+    "heroImageAlt": "Industrial manufacturing environment",
+    "trustYears": "15+ years of industrial project experience",
+    "trustChina": "Based in Dongguan, China",
+    "trustInternational": "International project delivery",
+    "trustEngineering": "Engineering-led execution",
+    "industriesTitle": "Industries we support",
+    "industriesDesc": "Sector-specific manufacturing programs for OEMs, plant teams, and procurement leaders.",
+    "capabilitiesTitle": "Capabilities",
+    "capabilitiesDesc": "Technical capacity across plastics, metals, tooling, equipment, and manufacturing transfer.",
+    "servicesTitle": "Core services",
+    "servicesDesc": "From engineering review to production oversight and after-sales support.",
+    "whyTitle": "Why Top Industrial",
+    "whyDesc": "We operate as a technical partner responsible for project clarity, supplier qualification, and manufacturing execution—not as a broker or catalog seller.",
+    "whyItems": {
+      "one": "Engineering review before commitment",
+      "two": "Qualified manufacturing ecosystem in China and Asia",
+      "three": "Transparent process from RFQ to shipment",
+      "four": "Quality systems aligned to industrial expectations"
+    },
+    "networkTitle": "Manufacturing network",
+    "networkDesc": "A qualified network of manufacturing partners selected for process capability, quality systems, and project fit—not lowest-price listing.",
+    "engineeringTitle": "Engineering support",
+    "engineeringDesc": "Technical assessment of drawings, materials, tolerances, tooling strategy, and production risk before quotation and release.",
+    "processTitle": "Project process",
+    "processDesc": "A clear path from requirements to after-sales support.",
+    "articlesTitle": "Latest articles",
+    "testimonialsTitle": "What partners value",
+    "finalTitle": "Start an industrial conversation",
+    "finalDesc": "Share your drawings, scope, or manufacturing challenge. We will respond with a structured engineering discussion.",
+    "metricsTitle": "Key metrics",
+    "metrics": {
+      "years": "15+",
+      "yearsLabel": "Years of industrial project experience",
+      "projects": "1,300+",
+      "projectsLabel": "Projects coordinated",
+      "sectors": "8",
+      "sectorsLabel": "Industry sectors served",
+      "partners": "40+",
+      "partnersLabel": "Qualified manufacturing partners"
+    }
+  },
+  "about": {
+    "title": "About Top Industrial",
+    "description": "Dongguan Top Industrial and Commerce Co. Ltd is an Industrial Solutions Partner based in Dongguan, China, supporting international manufacturing projects for more than 15 years.",
+    "storyTitle": "Company story",
+    "story": "Top Industrial was built to help industrial companies execute manufacturing projects in China and Asia with engineering discipline. We coordinate molds, components, equipment, OEM/ODM programs, and manufacturing transfers through a qualified production network.",
+    "yearsTitle": "15+ years",
+    "years": "Experience across plastics, metals, industrial equipment, renewable energy systems, water treatment, automation, and custom engineering programs.",
+    "chinaTitle": "China presence",
+    "china": "Our office is located in Chashan Town, Dongguan—inside one of China’s core manufacturing regions—enabling close supervision of tooling, production, inspection, and logistics.",
+    "chinaExtra": "Dongguan is the heart of China's manufacturing belt in the Greater Bay Area, providing direct access to tooling, plastic injection, metal fabrication, electronics, and assembly supply chains within a 60-minute radius of our office.",
+    "internationalTitle": "International experience",
+    "international": "We work with OEMs, procurement teams, plant managers, and project leaders across multiple markets who need reliable industrial execution—not transactional sourcing.",
+    "missionTitle": "Mission",
+    "mission": "To convert industrial requirements into executable manufacturing projects with technical clarity and controlled delivery.",
+    "visionTitle": "Vision",
+    "vision": "To be a trusted Industrial Solutions Partner for companies that need China and Asia manufacturing capability with engineering accountability.",
+    "valuesTitle": "Values",
+    "values": ["Technical honesty", "Process discipline", "Quality accountability", "Long-term partnership", "International professionalism"],
+    "approachTitle": "Our approach",
+    "approach": "We start with requirements and engineering review, qualify the right manufacturing path, manage execution, and maintain quality visibility through production and shipment.",
+    "teamTitle": "Leadership",
+    "teamName": "Héctor Carreño Toledo",
+    "teamRole": "Director Comercial",
+    "teamBio": "Bilingual industrial professional bridging manufacturing capability in China with project requirements across Latin America and international markets. Focused on engineering-led project execution, supplier qualification, and long-term manufacturing partnerships.",
+    "certsTitle": "Certifications and Standards",
+    "certsBody": "Our manufacturing partners operate under ISO 9001, IATF 16949, and ISO 14001 certified quality management systems. We work to industrial inspection standards including AS9102 (first article), AQL sampling plans, and customer-specific requirements.",
+    "whyTitle": "Why companies work with us",
+    "why": ["Need for engineering-led project ownership", "Complex multi-process manufacturing scopes", "Manufacturing transfer or nearshoring support", "Requirement for inspection and supplier qualification", "Preference for a partner, not a broker"]
+  },
+  "processPage": {
+    "title": "Project process",
+    "description": "A structured nine-step process that reduces manufacturing risk and keeps engineering, procurement, and production aligned."
+  },
+  "qualityPage": {
+    "title": "Quality",
+    "description": "Quality is managed as a continuous system—from supplier qualification and manufacturing audits to inspection and ongoing monitoring.",
+    "sections": {
+      "inspection": {
+        "title": "Inspection",
+        "body": "Dimensional, visual, and functional inspection aligned to drawings, standards, and agreed acceptance criteria. We develop inspection plans before production release, define critical-to-quality dimensions, and document results with photographic and dimensional records. First-article, in-process, and final inspections are available depending on project requirements."
+      },
+      "systems": {
+        "title": "Quality systems",
+        "body": "Process controls, documentation, and traceability expectations matched to industrial project requirements. We work with suppliers whose quality management systems align with ISO 9001, IATF 16949, or equivalent standards. Documentation packages include material certificates, inspection reports, traceability records, and shipment summaries configured to the buyer's receiving requirements."
+      },
+      "supplier": {
+        "title": "Supplier qualification",
+        "body": "Capability, capacity, and quality-system evaluation before production commitment. Our qualification process includes manufacturing process review, equipment assessment, workforce capability verification, and quality-system documentation audit. Only suppliers who demonstrate consistent capability against the specific process and tolerance requirements of a project are approved for production."
+      },
+      "audits": {
+        "title": "Manufacturing audits",
+        "body": "On-site and process audits to verify readiness, equipment, workforce, and control plans. Audits are conducted before production release and may include process capability studies, environmental controls verification, and operator competency assessment. Findings are documented and corrective actions confirmed before production authorization."
+      },
+      "monitoring": {
+        "title": "Continuous monitoring",
+        "body": "Production follow-up, issue escalation, and corrective action through delivery and after-sales. We maintain visibility on production progress, conduct sample reviews during production runs, and manage non-conformance through documented root-cause analysis and corrective-action cycles. Post-delivery support includes field feedback integration and supplier performance tracking."
+      }
+    }
+  },
+  "capabilitiesPage": {
+    "title": "Capabilities",
+    "description": "Cross-disciplinary manufacturing and engineering capabilities for industrial projects that require more than a single process or supplier."
+  },
+  "industriesPage": {
+    "title": "Industries",
+    "description": "Industrial programs tailored to sector requirements, compliance expectations, and production realities."
+  },
+  "solutionsPage": {
+    "title": "Solutions",
+    "description": "Manufacturing solutions spanning plastics, metals, equipment, energy, water treatment, automation, and custom programs."
+  },
+  "servicesPage": {
+    "title": "Services",
+    "description": "Engineering, qualification, project management, quality, and supply-chain services that turn requirements into executable projects."
+  },
+  "caseStudiesPage": {
+    "title": "Case studies",
+    "description": "Representative industrial projects illustrating engineering approach, execution, and controlled outcomes."
+  },
+  "blogPage": {
+    "title": "Blog",
+    "description": "Practical articles on manufacturing, China production, engineering, procurement, nearshoring, and supply chain."
+  },
+  "resourcesPage": {
+    "title": "Resources",
+    "description": "Checklists and guides to prepare RFQs, audits, drawing packages, and manufacturing transfers."
+  },
+  "contactPage": {
+    "title": "Contact",
+    "description": "Reach our Dongguan office by email, WhatsApp, or LinkedIn, or send a message through the form below. For exploratory project discussions, request a consultation; for drawing packages and BOMs, use the RFQ form.",
+    "channels": "Direct channels",
+    "address": "Office address",
+    "consultationLink": "Prefer a structured meeting? Request a consultation.",
+    "rfqLink": "Need to submit drawings or a BOM? Go to RFQ."
+  },
+  "consultationPage": {
+    "title": "Request a Consultation",
+    "description": "Schedule an exploratory conversation about your manufacturing project, supplier needs, or nearshoring plans. For drawing-heavy quotation requests, use the RFQ form.",
+    "rfqLink": "Need to submit drawings or a BOM? Go to RFQ."
+  },
+  "rfqPage": {
+    "title": "Request for quotation",
+    "description": "Submit project details, target quantity, destination country, timeline, and engineering files for review."
+  },
+  "privacyPage": {
+    "title": "Privacy policy",
+    "body": "We collect contact and project information submitted through our forms solely to evaluate industrial inquiries and respond. Uploaded files are used for engineering review and quotation. We do not sell personal data. Contact us to request correction or deletion of your information."
+  },
+  "termsPage": {
+    "title": "Terms of use",
+    "body": "This website provides general information about Top Industrial capabilities and services. Submitting an inquiry or RFQ does not create a contract. Project terms, confidentiality, pricing, and delivery commitments are defined only in written commercial agreements."
+  },
+  "forms": {
+    "contact": {
+      "name": "Full name",
+      "email": "Work email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending..."
+    },
+    "consultation": {
+      "name": "Full name",
+      "email": "Work email",
+      "company": "Company",
+      "meetingTime": "Preferred meeting time",
+      "meetingPlaceholder": "e.g. Tue 10:00 CST or your local timezone",
+      "message": "How can we help?",
+      "submit": "Request consultation",
+      "sending": "Sending..."
+    },
+    "rfq": {
+      "name": "Full name",
+      "email": "Work email",
+      "company": "Company",
+      "projectType": "Project type",
+      "quantity": "Target quantity",
+      "country": "Destination country",
+      "timeline": "Timeline",
+      "description": "Project description",
+      "files": "Upload drawings, specifications, BOM, PDF",
+      "filesHint": "Accepted: PDF, CAD, Office, images. Multiple files allowed.",
+      "nda": "If an NDA is required before file exchange, note it in the description and we will coordinate.",
+      "select": "Select",
+      "submit": "Submit RFQ",
+      "sending": "Submitting...",
+      "nearshoring": "Nearshoring Support / Manufacturing Transfer to Latin America"
+    }
+  },
+  "cta": {
+    "qualityTitle": "Discuss your quality requirements",
+    "qualityDesc": "Share inspection criteria, documentation expectations, or supplier qualification needs. We will outline a practical quality path for your project.",
+    "processTitle": "Start a project",
+    "processDesc": "Begin with a structured engineering discussion so scope, risks, and next steps are clear before production commitment.",
+    "casesTitle": "Discuss a similar project",
+    "casesDesc": "Tell us about a comparable manufacturing challenge. We will review feasibility and recommend an execution approach.",
+    "aboutTitle": "Start a conversation",
+    "aboutDesc": "Whether you need China manufacturing support, supplier qualification, or nearshoring guidance, we are ready to discuss your requirements."
+  },
+  "testimonials": {
+    "one": {
+      "quote": "The engineering review clarified tooling risk before we committed to production.",
+      "role": "Engineering Manager, Industrial Equipment OEM"
+    },
+    "two": {
+      "quote": "We needed coordinated quality oversight across multiple processes, not a simple purchase order.",
+      "role": "Procurement Director, Consumer Products"
+    },
+    "three": {
+      "quote": "Their process made the manufacturing transfer structured and measurable.",
+      "role": "Operations Director, Packaging Manufacturer"
+    }
+  }
+}

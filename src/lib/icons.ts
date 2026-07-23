@@ -1,0 +1,67 @@
+import type { LucideIcon } from "lucide-react";
+import {
+  ArrowRightLeft,
+  Building2,
+  Car,
+  CircuitBoard,
+  ClipboardCheck,
+  Cog,
+  Cylinder,
+  Droplets,
+  Factory,
+  Globe,
+  HardHat,
+  HeartPulse,
+  ListChecks,
+  Package,
+  Ruler,
+  ShieldCheck,
+  ShoppingBag,
+  Sun,
+  UtensilsCrossed,
+  Wrench,
+  Zap,
+} from "lucide-react";
+
+export const industryIcons: Record<string, LucideIcon> = {
+  automotive: Car,
+  medical: HeartPulse,
+  "consumer-goods": ShoppingBag,
+  "industrial-equipment": Wrench,
+  energy: Zap,
+  mining: HardHat,
+  food: UtensilsCrossed,
+  packaging: Package,
+  electronics: CircuitBoard,
+  construction: Building2,
+  "water-treatment": Droplets,
+};
+
+export const solutionIcons: Record<string, LucideIcon> = {
+  "plastic-injection": Cylinder,
+  "metal-manufacturing": Cog,
+  "industrial-equipment": Wrench,
+  "renewable-energy": Sun,
+  "water-treatment": Droplets,
+  automation: Cog,
+  packaging: Package,
+  "custom-manufacturing": Factory,
+};
+
+export const serviceIcons: Record<string, LucideIcon> = {
+  engineering: Ruler,
+  "supplier-qualification": ShieldCheck,
+  "project-management": ListChecks,
+  "quality-control": ClipboardCheck,
+  "manufacturing-supervision": Factory,
+  "product-development": Ruler,
+  oem: Factory,
+  odm: Factory,
+  "reverse-engineering": Cog,
+  tooling: Wrench,
+  "manufacturing-transfer": ArrowRightLeft,
+  "factory-audits": ClipboardCheck,
+  "supply-chain-development": Globe,
+  "strategic-sourcing": Globe,
+  "nearshoring-support": Globe,
+};
