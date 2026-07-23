@@ -17,7 +17,9 @@
     "more": "More",
     "menu": "Menu",
     "close": "Close",
-    "home": "Home"
+    "home": "Home",
+    "privacy": "Privacy",
+    "terms": "Terms"
   },
   "footer": {
     "tagline": "Industrial Solutions Partner for complex manufacturing projects across China and Asia.",
@@ -36,10 +38,14 @@
     "relatedServices": "Related services",
     "relatedIndustries": "Related industries",
     "whatsapp": "WhatsApp",
-    "backTo": "Back to"
+    "backTo": "Back to",
+    "pageNotFound": "Page not found",
+    "pageNotFoundDescription": "The page you requested does not exist or has moved.",
+    "goHome": "Go home",
+    "loading": "Loading..."
   },
   "home": {
-    "heroBrand": "Top Industrial",
+    "heroBrand": "DG Top Industrial",
     "heroTitle": "Industrial Manufacturing Projects. Engineered and Executed.",
     "heroDescription": "Top Industrial partners with OEMs and industrial companies to deliver molds, components, equipment, and complex manufacturing programs through engineering oversight and a qualified Asia manufacturing network.",
     "heroImageAlt": "Industrial manufacturing environment",
@@ -84,8 +90,13 @@
     }
   },
   "about": {
-    "title": "About Top Industrial",
-    "description": "Dongguan Top Industrial and Commerce Co. Ltd is an Industrial Solutions Partner based in Dongguan, China, supporting international manufacturing projects for more than 15 years.",
+    "title": "About DG Top Industrial",
+    "description": "Dongguan Top Industrial Co., Ltd. is an Industrial Solutions Partner based in Dongguan, China, supporting international manufacturing projects for more than 15 years.",
+    "images": {
+      "presenceAlt": "DG Top Industrial manufacturing facility in Dongguan",
+      "officeAlt": "DG Top Industrial office in Dongguan",
+      "productionAlt": "Supervised industrial production floor"
+    },
     "storyTitle": "Company story",
     "story": "Top Industrial was built to help industrial companies execute manufacturing projects in China and Asia with engineering discipline. We coordinate molds, components, equipment, OEM/ODM programs, and manufacturing transfers through a qualified production network.",
     "yearsTitle": "15+ years",

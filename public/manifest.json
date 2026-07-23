@@ -1,0 +1,21 @@
+{
+  "name": "DG Top Industrial",
+  "short_name": "DG Top",
+  "description": "Engineering-led manufacturing solutions from Dongguan, China.",
+  "start_url": "/en",
+  "display": "standalone",
+  "background_color": "#0d1220",
+  "theme_color": "#0d7377",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

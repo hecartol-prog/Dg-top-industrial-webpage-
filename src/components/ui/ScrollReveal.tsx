@@ -21,7 +21,6 @@ export function ScrollReveal({ children, className = "", delayMs = 0 }: Props) {
       "(prefers-reduced-motion: reduce)",
     ).matches;
     if (reduceMotion) {
-      setVisible(true);
       return;
     }
 
@@ -29,11 +28,12 @@ export function ScrollReveal({ children, className = "", delayMs = 0 }: Props) {
     const alreadyInView =
       rect.top < window.innerHeight * 0.92 && rect.bottom > 0;
     if (alreadyInView) {
-      setVisible(true);
       return;
     }
 
-    setVisible(false);
+    const hideUntilObserved = window.requestAnimationFrame(() => {
+      setVisible(false);
+    });
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -49,6 +49,7 @@ export function ScrollReveal({ children, className = "", delayMs = 0 }: Props) {
     const failsafe = window.setTimeout(() => setVisible(true), 1500);
 
     return () => {
+      window.cancelAnimationFrame(hideUntilObserved);
       observer.disconnect();
       window.clearTimeout(failsafe);
     };

@@ -1,11 +1,11 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { Building2, CheckCircle2, Factory, Layers } from "lucide-react";
+import { Building2, CheckCircle2, Layers } from "lucide-react";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { CtaGroup } from "@/components/ui/CtaGroup";
 import { PageIntro } from "@/components/ui/PageIntro";
-import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import {
   getCaseStudyBySlug,
   caseStudies,
@@ -64,7 +64,16 @@ export default async function CaseStudyDetailPage({ params }: Props) {
       />
       <PageIntro title={item.title[loc]} description={item.challenge[loc]} />
       <div className="container-site space-y-10 pb-20">
-        <ImagePlaceholder label={item.title[loc]} icon={Factory} aspect="wide" />
+        <div className="relative h-64 overflow-hidden rounded-lg border border-border bg-surface shadow-sm md:h-96">
+          <Image
+            src={`/images/case-studies/${item.id}.png`}
+            alt={item.title[loc]}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 72rem"
+            priority
+          />
+        </div>
 
         <div className="grid gap-4 border-b border-border bg-gray-50 p-5 sm:grid-cols-3">
           <div className="flex items-start gap-3">

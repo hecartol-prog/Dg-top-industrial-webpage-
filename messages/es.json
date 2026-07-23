@@ -17,7 +17,9 @@
     "more": "Más",
     "menu": "Menú",
     "close": "Cerrar",
-    "home": "Inicio"
+    "home": "Inicio",
+    "privacy": "Privacidad",
+    "terms": "Términos"
   },
   "footer": {
     "tagline": "Socio de soluciones industriales para proyectos de manufactura complejos en China y Asia.",
@@ -36,10 +38,14 @@
     "relatedServices": "Servicios relacionados",
     "relatedIndustries": "Industrias relacionadas",
     "whatsapp": "WhatsApp",
-    "backTo": "Volver a"
+    "backTo": "Volver a",
+    "pageNotFound": "Página no encontrada",
+    "pageNotFoundDescription": "La página solicitada no existe o fue movida.",
+    "goHome": "Volver al inicio",
+    "loading": "Cargando..."
   },
   "home": {
-    "heroBrand": "Top Industrial",
+    "heroBrand": "DG Top Industrial",
     "heroTitle": "Proyectos de manufactura industrial. Diseñados y ejecutados.",
     "heroDescription": "Top Industrial colabora con OEMs y empresas industriales para entregar moldes, componentes, equipos y programas de manufactura complejos mediante supervisión de ingeniería y una red calificada de manufactura en Asia.",
     "heroImageAlt": "Entorno de manufactura industrial",
@@ -84,8 +90,13 @@
     }
   },
   "about": {
-    "title": "Sobre Top Industrial",
-    "description": "Dongguan Top Industrial and Commerce Co. Ltd es un Socio de Soluciones Industriales con sede en Dongguan, China, que apoya proyectos internacionales de manufactura desde hace más de 15 años.",
+    "title": "Sobre DG Top Industrial",
+    "description": "Dongguan Top Industrial Co., Ltd. es un Socio de Soluciones Industriales con sede en Dongguan, China, que apoya proyectos internacionales de manufactura desde hace más de 15 años.",
+    "images": {
+      "presenceAlt": "Instalación de manufactura de DG Top Industrial en Dongguan",
+      "officeAlt": "Oficina de DG Top Industrial en Dongguan",
+      "productionAlt": "Piso de producción industrial supervisado"
+    },
     "storyTitle": "Historia de la empresa",
     "story": "Top Industrial se creó para ayudar a empresas industriales a ejecutar proyectos de manufactura en China y Asia con disciplina de ingeniería. Coordinamos moldes, componentes, equipos, programas OEM/ODM y transferencias de manufactura a través de una red de producción calificada.",
     "yearsTitle": "Más de 15 años",

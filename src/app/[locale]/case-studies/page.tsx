@@ -1,10 +1,9 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { Factory } from "lucide-react";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { FinalCtaBand } from "@/components/ui/FinalCtaBand";
 import { PageIntro } from "@/components/ui/PageIntro";
-import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { caseStudies } from "@/content/case-studies";
 import { buildMetadata } from "@/lib/seo";
@@ -46,12 +45,15 @@ export default async function CaseStudiesPage({ params }: Props) {
               }}
               className="card-lift group grid gap-5 rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-l-2 hover:border-l-brand md:grid-cols-[220px_1fr] md:p-5"
             >
-              <ImagePlaceholder
-                label={item.industryLabel[loc]}
-                icon={Factory}
-                aspect="wide"
-                className="shadow-none"
-              />
+              <div className="relative min-h-40 overflow-hidden rounded-md bg-surface shadow-sm md:min-h-0">
+                <Image
+                  src={`/images/case-studies/${item.id}.png`}
+                  alt={item.title[loc]}
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, 220px"
+                />
+              </div>
               <div>
                 <h2 className="text-2xl transition-colors group-hover:text-brand">
                   {item.title[loc]}
