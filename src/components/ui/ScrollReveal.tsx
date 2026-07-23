@@ -10,11 +10,30 @@ type Props = {
 
 export function ScrollReveal({ children, className = "", delayMs = 0 }: Props) {
   const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
+  // Visible by default so SSR / slow hydration never leaves blank sections.
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     const node = ref.current;
     if (!node) return;
+
+    const reduceMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+    if (reduceMotion) {
+      setVisible(true);
+      return;
+    }
+
+    const rect = node.getBoundingClientRect();
+    const alreadyInView =
+      rect.top < window.innerHeight * 0.92 && rect.bottom > 0;
+    if (alreadyInView) {
+      setVisible(true);
+      return;
+    }
+
+    setVisible(false);
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -23,11 +42,16 @@ export function ScrollReveal({ children, className = "", delayMs = 0 }: Props) {
           observer.disconnect();
         }
       },
-      { threshold: 0.12, rootMargin: "0px 0px -40px 0px" },
+      { threshold: 0.08, rootMargin: "0px 0px -24px 0px" },
     );
 
     observer.observe(node);
-    return () => observer.disconnect();
+    const failsafe = window.setTimeout(() => setVisible(true), 1500);
+
+    return () => {
+      observer.disconnect();
+      window.clearTimeout(failsafe);
+    };
   }, []);
 
   return (
