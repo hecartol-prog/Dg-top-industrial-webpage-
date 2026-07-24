@@ -50,8 +50,25 @@ export async function generateMetadata({ params }: Props) {
     },
     description:
       locale === "es"
-        ? "Socio de soluciones industriales para proyectos de manufactura en China y Asia."
-        : "Industrial Solutions Partner for manufacturing projects across China and Asia.",
+        ? "Socio de manufactura liderado por ingeniería en Dongguan, China — inspección de calidad, OEM, PPAP, inyección plástica y transferencia de manufactura."
+        : "Engineering-led manufacturing partner in Dongguan, China — industrial manufacturing, quality inspection, OEM programs, PPAP suppliers, and manufacturing transfer.",
+    keywords: [
+      "industrial manufacturing Dongguan",
+      "China quality inspection services",
+      "OEM manufacturing Dongguan China",
+      "PPAP supplier China",
+      "plastic injection molding China",
+      "manufacturing transfer China",
+      "nearshoring support China manufacturing",
+    ],
+    icons: {
+      icon: "/favicon.ico",
+      apple: "/apple-touch-icon.png",
+    },
+    manifest: "/manifest.json",
+    openGraph: {
+      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: siteConfig.name }],
+    },
   };
 }
 

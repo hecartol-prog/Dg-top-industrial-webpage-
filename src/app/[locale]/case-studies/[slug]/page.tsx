@@ -63,6 +63,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
       />
       <PageIntro title={item.title[loc]} description={item.challenge[loc]} />
       <div className="container-site space-y-10 pb-20">
+        {/* TODO: replace with real case study photo when available */}
         <ImagePlaceholder
           label={item.title[loc]}
           icon={ImageIcon}

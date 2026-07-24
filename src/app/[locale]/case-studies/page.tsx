@@ -46,6 +46,7 @@ export default async function CaseStudiesPage({ params }: Props) {
               }}
               className="card-lift group grid gap-5 rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-l-2 hover:border-l-brand md:grid-cols-[220px_1fr] md:p-5"
             >
+              {/* TODO: replace with real case study photo when available */}
               <ImagePlaceholder
                 label={item.industryLabel[loc]}
                 icon={Factory}

@@ -37,6 +37,7 @@ export default async function AboutPage({ params }: Props) {
       <Breadcrumbs items={[{ label: tn("home"), href: "/" }, { label: t("title") }]} />
       <PageIntro title={t("title")} description={t("description")} />
       <div className="container-site pb-16">
+        {/* TODO: replace with real Dongguan facility photo when available */}
         <ImagePlaceholder label="Dongguan manufacturing presence" icon={Factory} aspect="wide" />
         <div className="mt-12 grid gap-10 lg:grid-cols-2">
           <section>
@@ -56,11 +57,13 @@ export default async function AboutPage({ params }: Props) {
             ) : null}
             <p className="mt-4 text-muted">{t("chinaExtra")}</p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
+              {/* TODO: replace with real Dongguan office photo when available */}
               <ImagePlaceholder
                 label={loc === "es" ? "Oficina Dongguan" : "Dongguan Office"}
                 icon={MapPin}
                 aspect="wide"
               />
+              {/* TODO: replace with real production floor photo when available */}
               <ImagePlaceholder
                 label={loc === "es" ? "Piso de producción" : "Production Floor"}
                 icon={Factory}
