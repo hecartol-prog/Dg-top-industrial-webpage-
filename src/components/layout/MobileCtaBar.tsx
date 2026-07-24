@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { IconWhatsApp } from "@/components/ui/Icons";
 import { siteConfig } from "@/lib/site";
 
 export function MobileCtaBar() {
@@ -20,8 +21,9 @@ export function MobileCtaBar() {
         href={`https://wa.me/${siteConfig.whatsapp}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="py-3 text-center text-xs text-foreground"
+        className="inline-flex items-center justify-center gap-1.5 py-3 text-xs text-[#25D366]"
       >
+        <IconWhatsApp className="h-4 w-4" />
         {tc("whatsapp")}
       </a>
     </div>

@@ -4,7 +4,7 @@ export const siteConfig = {
   legalNameZh: "东莞若希迈贸易有限公司",
   domain: "https://www.dgtopindustrial.com",
   email: "info@dgtopindustrial.com",
-  whatsapp: "8613800000000",
+  whatsapp: "8618038257063",
   linkedin: "https://www.linkedin.com/company/dgtopindustrialandcommerce",
   address: {
     line1: "No. 41 Chatang Road, Building 1, Third Floor Room 302",

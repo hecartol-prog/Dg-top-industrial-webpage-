@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { getLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { IconWhatsApp } from "@/components/ui/Icons";
 import { siteConfig } from "@/lib/site";
 
 export async function SiteFooter() {
@@ -80,8 +81,9 @@ export async function SiteFooter() {
               href={`https://wa.me/${siteConfig.whatsapp}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-colors hover:text-white"
+              className="inline-flex items-center gap-2 transition-colors hover:text-white"
             >
+              <IconWhatsApp className="h-4 w-4 text-[#25D366]" />
               WhatsApp
             </a>
           </div>

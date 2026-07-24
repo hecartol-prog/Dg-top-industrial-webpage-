@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { PageIntro } from "@/components/ui/PageIntro";
 import { ContactForm } from "@/components/forms/ContactForm";
+import { IconWhatsApp } from "@/components/ui/Icons";
 import { Link } from "@/i18n/navigation";
 import { fullAddress, siteConfig } from "@/lib/site";
 import { buildMetadata } from "@/lib/seo";
@@ -47,9 +48,10 @@ export default async function ContactPage({ params }: Props) {
                   href={`https://wa.me/${siteConfig.whatsapp}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-brand hover:underline"
+                  className="inline-flex items-center gap-2 text-brand hover:underline"
                 >
-                  WhatsApp
+                  <IconWhatsApp className="h-4 w-4 text-[#25D366]" />
+                  WhatsApp · +86 180 3825 7063
                 </a>
               </li>
               <li>
