@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { Building2, Quote } from "lucide-react";
+import { Quote } from "lucide-react";
 import { Hero } from "@/components/ui/Hero";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { FinalCtaBand } from "@/components/ui/FinalCtaBand";
@@ -58,7 +58,6 @@ export default async function HomePage({ params }: Props) {
   );
   const processPreview = process.slice(0, 5);
   const latestArticles = blog.slice(0, 3);
-  const partnerPlaceholders = Array.from({ length: 6 }, (_, i) => i + 1);
 
   return (
     <>
@@ -70,28 +69,6 @@ export default async function HomePage({ params }: Props) {
         secondaryLabel={tn("rfq")}
         imageAlt={t("heroImageAlt")}
       />
-
-      <section className="border-b border-border bg-gray-50 py-10">
-        <div className="container-site text-center">
-          <p className="font-ui text-sm text-muted">
-            {loc === "es"
-              ? "Sirviendo a empresas industriales en más de 20 países"
-              : "Serving industrial companies across 20+ countries"}
-          </p>
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-            {partnerPlaceholders.map((n) => (
-              <div
-                key={n}
-                title="Partner logo placeholder"
-                className="flex h-12 w-28 items-center justify-center rounded-md border border-gray-300 bg-gray-200"
-              >
-                <Building2 className="h-5 w-5 text-gray-300" aria-hidden />
-                <span className="sr-only">Partner logo placeholder</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <section className="bg-white py-16 md:py-20">
         <div className="container-site">

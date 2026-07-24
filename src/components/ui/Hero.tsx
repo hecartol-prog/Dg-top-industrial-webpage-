@@ -39,7 +39,7 @@ export function Hero({
 
       <div className="container-site relative grid min-h-[88vh] items-center gap-10 py-20 lg:grid-cols-[1.15fr_0.85fr] lg:gap-12 lg:py-24">
         <div>
-          <p className="fade-in mb-4 font-display text-2xl tracking-wide !text-white md:text-3xl">
+          <p className="fade-in mb-4 max-w-3xl font-display text-xl leading-snug tracking-wide !text-white md:text-2xl lg:text-3xl">
             {brand}
           </p>
           <h1 className="fade-in max-w-3xl text-4xl leading-tight !text-white md:text-5xl xl:text-6xl">
