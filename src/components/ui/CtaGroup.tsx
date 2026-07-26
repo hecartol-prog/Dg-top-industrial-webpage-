@@ -23,26 +23,38 @@ export function CtaGroup({
   tone = "light",
   invertPrimary = false,
 }: Props) {
-  const primaryClass = invertPrimary
-    ? "btn-interactive inline-flex items-center justify-center gap-2 bg-white px-6 py-3 font-ui text-sm tracking-wide text-[#0d1220] shadow-sm hover:shadow-md"
-    : "btn-interactive inline-flex items-center justify-center gap-2 bg-brand px-6 py-3 font-ui text-sm tracking-wide text-white shadow-sm hover:bg-brand-dark hover:shadow-md";
+  /*
+   tone=light (white bg pages):  primary=btn-dark, secondary=btn-ghost-light
+   tone=dark  (dark bg pages):  primary=btn-light, secondary=btn-ghost-dark
+   invertPrimary flips:  primary↔secondary
+  */
 
-  const secondaryClass =
-    tone === "dark" || invertPrimary
-      ? "btn-interactive inline-flex items-center justify-center gap-2 border border-white bg-transparent px-6 py-3 font-ui text-sm tracking-wide text-white hover:bg-white hover:text-[#0d1220]"
-      : "btn-interactive inline-flex items-center justify-center gap-2 border border-brand bg-transparent px-6 py-3 font-ui text-sm tracking-wide text-brand hover:bg-brand hover:text-white";
+  const isDark = tone === "dark";
+  const primaryIsGhost = invertPrimary;
+
+  const primaryClass = primaryIsGhost
+    ? isDark
+      ? "btn-interactive btn-ghost-dark inline-flex items-center justify-center gap-2 px-6 py-3 font-ui text-sm tracking-wide"
+      : "btn-interactive btn-ghost-light inline-flex items-center justify-center gap-2 px-6 py-3 font-ui text-sm tracking-wide"
+    : isDark
+      ? "btn-interactive btn-light inline-flex items-center justify-center gap-2 px-6 py-3 font-ui text-sm tracking-wide"
+      : "btn-interactive btn-dark inline-flex items-center justify-center gap-2 px-6 py-3 font-ui text-sm tracking-wide";
+
+  const secondaryClass = isDark
+    ? "btn-interactive btn-ghost-dark inline-flex items-center justify-center gap-2 px-6 py-3 font-ui text-sm tracking-wide"
+    : "btn-interactive btn-ghost-light inline-flex items-center justify-center gap-2 px-6 py-3 font-ui text-sm tracking-wide";
 
   return (
     <div
       className={`flex flex-wrap gap-3 ${align === "center" ? "justify-center" : ""}`}
     >
       <Link href={primaryHref as never} className={primaryClass}>
-        {primaryLabel}
-        <ArrowRight className="h-4 w-4" aria-hidden />
+        <span className="relative z-10">{primaryLabel}</span>
+        <ArrowRight className="relative z-10 h-4 w-4" aria-hidden />
       </Link>
       <Link href={secondaryHref as never} className={secondaryClass}>
-        {secondaryLabel}
-        <ArrowRight className="h-4 w-4" aria-hidden />
+        <span className="relative z-10">{secondaryLabel}</span>
+        <ArrowRight className="relative z-10 h-4 w-4" aria-hidden />
       </Link>
     </div>
   );

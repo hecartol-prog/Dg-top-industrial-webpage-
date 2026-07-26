@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --brand-navy: #3b498f;
-  --brand-navy-dark: #2d3870;
-  --brand-navy-light: #5a68a8;
+  --brand-navy: #005b96;
+  --brand-navy-dark: #03396c;
+  --brand-navy-light: #6497b1;
+  --brand-sky: #b3cde0;
   --background: #ffffff;
   --surface: #f5f6f8;
   --foreground: #111827;
@@ -21,6 +22,7 @@
   --color-brand: var(--brand-navy);
   --color-brand-dark: var(--brand-navy-dark);
   --color-brand-light: var(--brand-navy-light);
+  --color-brand-sky: var(--brand-sky);
   --font-display: var(--font-marcellus-sc);
   --font-body: var(--font-marcellus);
   --font-ui: var(--font-inter);
@@ -146,10 +148,11 @@ img {
 .btn-interactive {
   transition:
     transform 150ms ease,
-    box-shadow 150ms ease,
-    background-color 150ms ease,
-    color 150ms ease,
-    border-color 150ms ease;
+    box-shadow 250ms ease,
+    background-color 250ms ease,
+    color 250ms ease,
+    border-color 250ms ease,
+    opacity 250ms ease;
 }
 
 .btn-interactive:hover {
@@ -158,6 +161,186 @@ img {
 
 .btn-interactive:active {
   transform: scale(0.98);
+}
+
+/* ── Gradient dark button ── */
+.btn-dark {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: none;
+  background: linear-gradient(135deg, #005b96, #03396c);
+  color: #ffffff;
+  box-shadow:
+    inset 0 1px 0 rgba(100, 151, 177, 0.3),
+    0 2px 8px rgba(3, 57, 108, 0.3);
+  transition:
+    transform 150ms ease,
+    box-shadow 250ms ease,
+    background 250ms ease;
+}
+
+.btn-dark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(180deg, rgba(100, 151, 177, 0.25) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.btn-dark::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 20px rgba(0, 91, 150, 0.15);
+  opacity: 0;
+  transition: opacity 300ms ease;
+  pointer-events: none;
+}
+
+.btn-dark:hover {
+  background: linear-gradient(135deg, #03396c, #005b96);
+  box-shadow:
+    inset 0 1px 0 rgba(100, 151, 177, 0.4),
+    0 4px 16px rgba(3, 57, 108, 0.35);
+}
+
+.btn-dark:hover::after {
+  opacity: 1;
+}
+
+.btn-dark:active {
+  box-shadow:
+    inset 0 2px 4px rgba(0, 0, 0, 0.2),
+    0 1px 4px rgba(3, 57, 108, 0.2);
+}
+
+/* ── Gradient light button ── */
+.btn-light {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: none;
+  background: linear-gradient(135deg, #b3cde0, #6497b1);
+  color: #03396c;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    0 2px 8px rgba(0, 91, 150, 0.15);
+  transition:
+    transform 150ms ease,
+    box-shadow 250ms ease,
+    background 250ms ease;
+}
+
+.btn-light::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.35) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.btn-light::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(180deg, transparent 40%, rgba(3, 57, 108, 0.08) 100%);
+  opacity: 0;
+  transition: opacity 300ms ease;
+  pointer-events: none;
+}
+
+.btn-light:hover {
+  background: linear-gradient(135deg, #a2c4db, #5589a5);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 4px 16px rgba(0, 91, 150, 0.25);
+}
+
+.btn-light:hover::after {
+  opacity: 1;
+}
+
+.btn-light:active {
+  box-shadow:
+    inset 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 1px 4px rgba(0, 91, 150, 0.15);
+}
+
+/* ── Ghost / outline dark button ── */
+.btn-ghost-dark {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(100, 151, 177, 0.5);
+  background: transparent;
+  color: #ffffff;
+  transition:
+    transform 150ms ease,
+    box-shadow 250ms ease,
+    background 250ms ease,
+    border-color 250ms ease;
+}
+
+.btn-ghost-dark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(0, 91, 150, 0.15), rgba(3, 57, 108, 0.2));
+  opacity: 0;
+  transition: opacity 300ms ease;
+  pointer-events: none;
+}
+
+.btn-ghost-dark:hover {
+  border-color: #6497b1;
+  background: linear-gradient(135deg, rgba(0, 91, 150, 0.2), rgba(3, 57, 108, 0.25));
+  box-shadow: 0 0 20px rgba(0, 91, 150, 0.15);
+}
+
+.btn-ghost-dark:hover::before {
+  opacity: 1;
+}
+
+/* ── Ghost / outline light button ── */
+.btn-ghost-light {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: 1px solid #6497b1;
+  background: transparent;
+  color: #03396c;
+  transition:
+    transform 150ms ease,
+    box-shadow 250ms ease,
+    background 250ms ease,
+    border-color 250ms ease;
+}
+
+.btn-ghost-light::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(179, 205, 224, 0.3), rgba(100, 151, 177, 0.2));
+  opacity: 0;
+  transition: opacity 300ms ease;
+  pointer-events: none;
+}
+
+.btn-ghost-light:hover {
+  border-color: #005b96;
+  background: linear-gradient(135deg, rgba(179, 205, 224, 0.4), rgba(100, 151, 177, 0.3));
+  box-shadow: 0 0 16px rgba(0, 91, 150, 0.1);
+}
+
+.btn-ghost-light:hover::before {
+  opacity: 1;
 }
 
 .card-lift {

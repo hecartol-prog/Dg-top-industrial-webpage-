@@ -27,7 +27,7 @@ export function FinalCtaBand({
         aria-hidden
       />
       <div className="container-site relative max-w-3xl text-center">
-        <div className="mx-auto mb-6 h-0.5 w-[60px] bg-brand" aria-hidden />
+        <div className="mx-auto mb-6 h-0.5 w-[60px] bg-gradient-to-r from-[#005b96] to-[#b3cde0]" aria-hidden />
         <h2 className="text-3xl !text-white md:text-4xl">{title}</h2>
         <p className="mt-4 font-ui !text-white/85">{description}</p>
         <div className="mt-8">

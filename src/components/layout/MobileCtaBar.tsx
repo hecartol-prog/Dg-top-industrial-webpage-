@@ -9,10 +9,10 @@ export function MobileCtaBar() {
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-3 border-t border-border bg-white md:hidden">
-      <Link href="/consultation" className="py-3 text-center text-xs text-brand">
+      <Link href="/consultation" className="py-3 text-center text-xs text-brand-dark font-medium">
         {t("consultation")}
       </Link>
-      <Link href="/rfq" className="bg-brand py-3 text-center text-xs text-white">
+      <Link href="/rfq" className="btn-dark py-3 text-center text-xs">
         {t("rfq")}
       </Link>
       <a

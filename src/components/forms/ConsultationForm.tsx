@@ -40,7 +40,7 @@ export function ConsultationForm() {
       <button
         type="submit"
         disabled={pending}
-        className="bg-brand px-6 py-3 text-sm text-white hover:bg-brand-dark disabled:opacity-60"
+        className="btn-interactive btn-dark px-6 py-3 text-sm disabled:opacity-60"
       >
         {pending ? t("sending") : t("submit")}
       </button>
