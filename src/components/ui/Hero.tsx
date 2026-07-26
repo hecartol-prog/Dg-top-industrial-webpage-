@@ -59,7 +59,7 @@ export function Hero({
 
         <div className="fade-in relative h-[200px] overflow-hidden rounded-lg border border-white/20 shadow-[0_20px_50px_rgba(0,0,0,0.35)] lg:h-[420px]">
           <Image
-            src="/images/hero-facility.png"
+            src="/images/hero-facility.jpg"
             alt={imageAlt}
             fill
             priority

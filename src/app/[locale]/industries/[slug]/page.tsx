@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { CtaGroup } from "@/components/ui/CtaGroup";
@@ -77,6 +78,19 @@ export default async function IndustryDetailPage({ params }: Props) {
         ]}
       />
       <PageIntro title={item.title[loc]} description={item.summary[loc]} />
+      {item.image && (
+        <div className="container-site -mt-6">
+          <div className="relative h-64 overflow-hidden rounded-xl sm:h-80 lg:h-96">
+            <Image
+              src={item.image}
+              alt={item.title[loc]}
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 80vw"
+            />
+          </div>
+        </div>
+      )}
       <div className="container-site space-y-10 pb-20">
         <section>
           <h2 className="text-2xl">{loc === "es" ? "Desafío" : "Challenge"}</h2>

@@ -22,6 +22,7 @@ export interface Industry extends SluggedContent {
   relatedSolutions: string[];
   relatedServices: string[];
   projectTypes: LocalizedStringArray;
+  image?: string;
 }
 
 export interface Solution extends SluggedContent {
