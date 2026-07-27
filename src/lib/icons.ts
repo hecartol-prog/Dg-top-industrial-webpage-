@@ -14,6 +14,7 @@ import {
   HeartPulse,
   ListChecks,
   Package,
+  Recycle,
   Ruler,
   ShieldCheck,
   ShoppingBag,
@@ -34,6 +35,7 @@ export const industryIcons: Record<string, LucideIcon> = {
   packaging: Package,
   electronics: CircuitBoard,
   construction: Building2,
+  "plastics-pet": Recycle,
   "water-treatment": Droplets,
 };
 
