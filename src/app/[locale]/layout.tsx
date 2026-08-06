@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
-import { Marcellus, Marcellus_SC, Inter } from "next/font/google";
+import { Marcellus, Marcellus_SC } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
@@ -22,12 +22,6 @@ const marcellusSc = Marcellus_SC({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-marcellus-sc",
-  display: "swap",
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
   display: "swap",
 });
 
@@ -52,6 +46,10 @@ export async function generateMetadata({ params }: Props) {
       locale === "es"
         ? "Socio de soluciones industriales para proyectos de manufactura en China y Asia."
         : "Industrial Solutions Partner for manufacturing projects across China and Asia.",
+    icons: {
+      icon: [{ url: "/favicon.ico" }, { url: "/icon.png", type: "image/png" }],
+      apple: [{ url: "/apple-touch-icon.png" }],
+    },
   };
 }
 
@@ -63,7 +61,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${marcellus.variable} ${marcellusSc.variable} ${inter.variable}`}>
+    <html lang={locale} className={`${marcellus.variable} ${marcellusSc.variable}`}>
       <body className="min-h-screen bg-background pb-16 font-body text-foreground antialiased md:pb-0">
         <NextIntlClientProvider messages={messages}>
           <JsonLd data={organizationJsonLd()} />

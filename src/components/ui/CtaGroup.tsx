@@ -34,15 +34,15 @@ export function CtaGroup({
 
   const primaryClass = primaryIsGhost
     ? isDark
-      ? "btn-interactive btn-ghost-dark inline-flex items-center justify-center gap-2 px-6 py-3 font-ui text-sm tracking-wide"
-      : "btn-interactive btn-ghost-light inline-flex items-center justify-center gap-2 px-6 py-3 font-ui text-sm tracking-wide"
+      ? "btn-interactive btn-ghost-dark inline-flex items-center justify-center gap-2 px-6 py-3 font-display text-sm tracking-[0.06em]"
+      : "btn-interactive btn-ghost-light inline-flex items-center justify-center gap-2 px-6 py-3 font-display text-sm tracking-[0.06em]"
     : isDark
-      ? "btn-interactive btn-light inline-flex items-center justify-center gap-2 px-6 py-3 font-ui text-sm tracking-wide"
-      : "btn-interactive btn-dark inline-flex items-center justify-center gap-2 px-6 py-3 font-ui text-sm tracking-wide";
+      ? "btn-interactive btn-light inline-flex items-center justify-center gap-2 px-6 py-3 font-display text-sm tracking-[0.06em]"
+      : "btn-interactive btn-dark inline-flex items-center justify-center gap-2 px-6 py-3 font-display text-sm tracking-[0.06em]";
 
   const secondaryClass = isDark
-    ? "btn-interactive btn-ghost-dark inline-flex items-center justify-center gap-2 px-6 py-3 font-ui text-sm tracking-wide"
-    : "btn-interactive btn-ghost-light inline-flex items-center justify-center gap-2 px-6 py-3 font-ui text-sm tracking-wide";
+    ? "btn-interactive btn-ghost-dark inline-flex items-center justify-center gap-2 px-6 py-3 font-display text-sm tracking-[0.06em]"
+    : "btn-interactive btn-ghost-light inline-flex items-center justify-center gap-2 px-6 py-3 font-display text-sm tracking-[0.06em]";
 
   return (
     <div

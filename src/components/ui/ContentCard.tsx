@@ -30,8 +30,8 @@ export function ContentCard({
       {Icon ? (
         <Icon className="mb-3 h-6 w-6 text-brand" strokeWidth={1.5} aria-hidden />
       ) : null}
-      <h3 className="text-xl transition-colors group-hover:text-brand">{title}</h3>
-      <p className="mt-2 font-ui text-sm text-muted">{summary}</p>
+      <h3 className="font-display text-[clamp(1.15rem,2vw,1.35rem)] transition-colors group-hover:text-brand">{title}</h3>
+      <p className="font-subtitle mt-2 text-sm text-muted">{summary}</p>
     </Link>
   );
 }

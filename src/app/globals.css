@@ -25,7 +25,7 @@
   --color-brand-sky: var(--brand-sky);
   --font-display: var(--font-marcellus-sc);
   --font-body: var(--font-marcellus);
-  --font-ui: var(--font-inter);
+  --font-ui: var(--font-marcellus);
 }
 
 * {
@@ -48,12 +48,40 @@ body {
   h1,
   h2,
   h3,
-  h4 {
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-display), Georgia, "Times New Roman", serif;
     font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0.01em;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
     color: var(--foreground);
+  }
+
+  h1 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 3.2vw, 2rem);
+  }
+
+  h3 {
+    font-size: clamp(1.2rem, 2.4vw, 1.5rem);
+  }
+
+  h4 {
+    font-size: clamp(1.1rem, 2vw, 1.25rem);
+  }
+
+  p,
+  li,
+  label,
+  input,
+  textarea,
+  select,
+  button {
+    font-family: var(--font-body), Georgia, "Times New Roman", serif;
   }
 }
 
@@ -86,12 +114,20 @@ img {
 }
 
 .font-ui {
-  font-family: var(--font-ui), ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-body), Georgia, "Times New Roman", serif;
 }
 
 .font-display {
   font-family: var(--font-display), Georgia, "Times New Roman", serif;
   font-weight: 400;
+}
+
+.font-subtitle {
+  font-family: var(--font-display), Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.45;
+  font-size: clamp(0.95rem, 1.6vw, 1.125rem);
 }
 
 .fade-in {

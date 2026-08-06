@@ -157,10 +157,10 @@ export default async function HomePage({ params }: Props) {
               [t("metrics.partners"), t("metrics.partnersLabel")],
             ].map(([value, label]) => (
               <div key={label} className="border-l-2 border-brand pl-4">
-                <p className="font-ui text-5xl font-semibold tracking-tight text-brand md:text-6xl">
+                <p className="font-display text-4xl tracking-tight text-brand md:text-5xl">
                   {value}
                 </p>
-                <p className="mt-2 font-ui text-xs uppercase tracking-wider text-muted">
+                <p className="font-subtitle mt-2 text-xs uppercase tracking-wider text-muted">
                   {label}
                 </p>
               </div>
@@ -216,11 +216,11 @@ export default async function HomePage({ params }: Props) {
             {processPreview.map((step, index) => (
               <ScrollReveal key={step.id} delayMs={index * 70}>
                 <li>
-                  <p className="font-ui text-xs uppercase tracking-[0.2em] text-brand">
+                  <p className="font-subtitle text-xs uppercase tracking-[0.2em] text-brand">
                     {String(index + 1).padStart(2, "0")}
                   </p>
-                  <h3 className="mt-2 text-lg">{step.title[loc]}</h3>
-                  <p className="mt-2 font-ui text-sm text-muted">{step.objective[loc]}</p>
+                  <h3 className="font-display mt-2 text-lg">{step.title[loc]}</h3>
+                  <p className="font-subtitle mt-2 text-sm text-muted">{step.objective[loc]}</p>
                 </li>
               </ScrollReveal>
             ))}
@@ -252,13 +252,13 @@ export default async function HomePage({ params }: Props) {
                   }}
                   className="card-lift group block rounded-lg border border-gray-200 p-5 hover:border-l-2 hover:border-l-brand"
                 >
-                  <p className="font-ui text-xs uppercase tracking-wider text-brand">
+                  <p className="font-subtitle text-xs uppercase tracking-wider text-brand">
                     {article.category.title[loc]}
                   </p>
-                  <h3 className="mt-2 text-xl transition-colors group-hover:text-brand">
+                  <h3 className="font-display mt-2 text-xl transition-colors group-hover:text-brand">
                     {article.title[loc]}
                   </h3>
-                  <p className="mt-2 font-ui text-sm text-muted">{article.excerpt[loc]}</p>
+                  <p className="font-subtitle mt-2 text-sm text-muted">{article.excerpt[loc]}</p>
                 </Link>
               </ScrollReveal>
             ))}
@@ -288,14 +288,14 @@ export default async function HomePage({ params }: Props) {
                       className="absolute left-4 top-4 h-10 w-10 text-gray-100"
                       aria-hidden
                     />
-                    <p className="relative text-lg italic text-foreground md:text-xl">
+                    <p className="relative font-subtitle text-lg italic text-foreground md:text-xl">
                       “{tt(`${key}.quote`)}”
                     </p>
                     <footer className="relative mt-6 flex items-center gap-3">
-                      <span className="flex h-10 w-10 items-center justify-center rounded-full bg-brand/10 font-ui text-xs text-brand">
+                      <span className="flex h-10 w-10 items-center justify-center rounded-full bg-brand/10 font-display text-xs text-brand">
                         {initials}
                       </span>
-                      <span className="font-ui text-sm text-muted">{role}</span>
+                      <span className="font-subtitle text-sm text-muted">{role}</span>
                     </footer>
                   </blockquote>
                 </ScrollReveal>

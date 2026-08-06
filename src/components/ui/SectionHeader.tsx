@@ -12,14 +12,18 @@ export function SectionHeader({
   align = "left",
 }: Props) {
   return (
-    <div className={`mb-10 max-w-3xl ${align === "center" ? "mx-auto text-center" : ""}`}>
+    <div className={`mb-8 max-w-3xl md:mb-10 ${align === "center" ? "mx-auto text-center" : ""}`}>
       {eyebrow ? (
-        <p className="mb-3 text-xs uppercase tracking-[0.2em] text-brand">
+        <p className="font-subtitle mb-2 text-xs uppercase tracking-[0.18em] text-brand md:mb-3">
           {eyebrow}
         </p>
       ) : null}
-      <h2 className="text-3xl md:text-4xl">{title}</h2>
-      {description ? <p className="mt-4 text-muted">{description}</p> : null}
+      <h2 className="font-display text-[clamp(1.5rem,3.2vw,2rem)] leading-snug tracking-[0.02em]">
+        {title}
+      </h2>
+      {description ? (
+        <p className="font-subtitle mt-3 text-muted md:mt-4">{description}</p>
+      ) : null}
     </div>
   );
 }

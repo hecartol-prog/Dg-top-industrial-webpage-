@@ -45,7 +45,7 @@ export function Hero({
           <h1 className="fade-in max-w-3xl text-2xl leading-snug !text-white md:text-3xl xl:text-4xl">
             {title}
           </h1>
-          <p className="fade-in mt-3 max-w-2xl font-ui text-sm !text-white/90 md:text-base">
+          <p className="fade-in mt-3 max-w-2xl font-subtitle text-sm !text-white/90 md:text-base">
             {description}
           </p>
           <div className="fade-in mt-5">
