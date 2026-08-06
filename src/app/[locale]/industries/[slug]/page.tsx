@@ -79,14 +79,15 @@ export default async function IndustryDetailPage({ params }: Props) {
       />
       <PageIntro title={item.title[loc]} description={item.summary[loc]} />
       {item.image && (
-        <div className="container-site -mt-6">
-          <div className="relative h-64 overflow-hidden rounded-xl sm:h-80 lg:h-96">
+        <div className="container-site -mt-6 pb-10">
+          <div className="relative aspect-[21/9] overflow-hidden rounded-xl bg-gray-100">
             <Image
               src={item.image}
               alt={item.title[loc]}
               fill
-              className="object-cover"
+              className="object-cover object-center"
               sizes="(max-width: 1024px) 100vw, 80vw"
+              priority={item.id === "water-treatment"}
             />
           </div>
         </div>
