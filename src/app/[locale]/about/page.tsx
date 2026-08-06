@@ -37,7 +37,7 @@ export default async function AboutPage({ params }: Props) {
       <PageIntro title={t("title")} description={t("description")} />
       <div className="container-site pb-16">
         <div className="relative h-64 overflow-hidden rounded-xl sm:h-80 lg:h-96">
-          <Image src="/images/industrial-equipment.jpg" alt="Dongguan manufacturing presence" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 80vw" priority />
+          <Image src="/images/industrial-equipment.webp" alt="Dongguan manufacturing presence" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 80vw" priority />
         </div>
         <div className="mt-12 grid gap-10 lg:grid-cols-2">
           <section>
@@ -55,10 +55,10 @@ export default async function AboutPage({ params }: Props) {
             <p className="mt-4 text-muted">{t("chinaExtra")}</p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
               <div className="relative aspect-[16/10] overflow-hidden rounded-lg">
-                <Image src="/images/about-office.jpg" alt={loc === "es" ? "Oficina Dongguan" : "Dongguan Office"} fill className="object-cover" sizes="(max-width: 640px) 100vw, 50vw" />
+                <Image src="/images/about-office.webp" alt={loc === "es" ? "Oficina Dongguan" : "Dongguan Office"} fill className="object-cover" sizes="(max-width: 640px) 100vw, 50vw" />
               </div>
               <div className="relative aspect-[16/10] overflow-hidden rounded-lg">
-                <Image src="/images/quality-inspection.jpg" alt={loc === "es" ? "Piso de producción" : "Production Floor"} fill className="object-cover" sizes="(max-width: 640px) 100vw, 50vw" />
+                <Image src="/images/quality-inspection.webp" alt={loc === "es" ? "Piso de producción" : "Production Floor"} fill className="object-cover" sizes="(max-width: 640px) 100vw, 50vw" />
               </div>
             </div>
           </section>

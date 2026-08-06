@@ -9,11 +9,14 @@ export function MobileCtaBar() {
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-3 border-t border-border bg-white md:hidden">
-      <Link href="/consultation" className="py-3 text-center text-xs text-brand-dark font-medium">
-        {t("consultation")}
+      <Link
+        href="/consultation"
+        className="btn-interactive btn-ghost-light py-3 text-center text-xs font-medium"
+      >
+        <span className="relative z-10">{t("consultation")}</span>
       </Link>
-      <Link href="/rfq" className="btn-dark py-3 text-center text-xs">
-        {t("rfq")}
+      <Link href="/rfq" className="btn-interactive btn-dark py-3 text-center text-xs">
+        <span className="relative z-10">{t("rfq")}</span>
       </Link>
       <a
         href={`https://wa.me/${siteConfig.whatsapp}`}

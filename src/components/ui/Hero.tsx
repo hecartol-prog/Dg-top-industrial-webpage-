@@ -19,7 +19,7 @@ export function Hero({
   imageAlt,
 }: Props) {
   return (
-    <section className="relative min-h-[88vh] overflow-hidden bg-[#0d1220] text-white">
+    <section className="relative min-h-[calc(100svh-3.5rem)] overflow-hidden bg-[#0d1220] text-white">
       <div className="absolute inset-0 bg-gradient-to-tr from-[#1a2340] via-[#0d1220] to-[#080b14]" />
       <div
         className="absolute inset-0 opacity-[0.07]"
@@ -37,18 +37,18 @@ export function Hero({
         <span className="hero-accent-dot absolute right-[28%] top-[40%] h-1 w-1 rounded-full bg-white/40 [animation-delay:2s]" />
       </div>
 
-      <div className="container-site relative grid min-h-[88vh] items-center gap-10 py-20 lg:grid-cols-[1.15fr_0.85fr] lg:gap-12 lg:py-24">
+      <div className="container-site relative grid min-h-[calc(100svh-3.5rem)] items-center gap-6 py-8 lg:grid-cols-[1.15fr_0.85fr] lg:gap-8 lg:py-10">
         <div>
-          <p className="fade-in mb-4 font-display text-2xl tracking-wide !text-white md:text-3xl">
+          <p className="fade-in mb-2 font-display text-lg tracking-wide !text-white md:text-xl">
             {brand}
           </p>
-          <h1 className="fade-in max-w-3xl text-4xl leading-tight !text-white md:text-5xl xl:text-6xl">
+          <h1 className="fade-in max-w-3xl text-2xl leading-snug !text-white md:text-3xl xl:text-4xl">
             {title}
           </h1>
-          <p className="fade-in mt-6 max-w-2xl font-ui text-base !text-white/90 md:text-lg">
+          <p className="fade-in mt-3 max-w-2xl font-ui text-sm !text-white/90 md:text-base">
             {description}
           </p>
-          <div className="fade-in mt-10">
+          <div className="fade-in mt-5">
             <CtaGroup
               primaryLabel={primaryLabel}
               secondaryLabel={secondaryLabel}
@@ -57,9 +57,9 @@ export function Hero({
           </div>
         </div>
 
-        <div className="fade-in relative h-[200px] overflow-hidden rounded-lg border border-white/20 shadow-[0_20px_50px_rgba(0,0,0,0.35)] lg:h-[420px]">
+        <div className="fade-in relative h-[140px] overflow-hidden rounded-lg border border-white/20 shadow-[0_20px_50px_rgba(0,0,0,0.35)] lg:h-[280px]">
           <Image
-            src="/images/hero-facility.jpg"
+            src="/images/hero-facility.webp"
             alt={imageAlt}
             fill
             priority

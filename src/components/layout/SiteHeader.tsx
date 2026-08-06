@@ -49,10 +49,10 @@ export function SiteHeader() {
           <Image
             src="/logo.png"
             alt="Top Industrial"
-            width={152}
-            height={97}
+            width={91}
+            height={58}
             priority
-            className="h-9 w-auto bg-transparent object-contain sm:h-10 md:h-11"
+            className="h-[1.35rem] w-auto bg-transparent object-contain sm:h-[1.5rem] md:h-[1.65rem]"
           />
         </Link>
 
@@ -64,7 +64,7 @@ export function SiteHeader() {
             <Link
               key={item.key}
               href={item.href}
-              className="nav-link whitespace-nowrap font-ui text-sm tracking-wide text-foreground/75 transition-colors hover:text-brand"
+              className="nav-link whitespace-nowrap font-display text-[13px] tracking-[0.06em] text-foreground/80 transition-colors hover:text-brand xl:text-sm"
             >
               {t(item.key)}
             </Link>
@@ -73,7 +73,7 @@ export function SiteHeader() {
           <div className="relative" ref={moreRef}>
             <button
               type="button"
-              className="nav-link whitespace-nowrap font-ui text-sm tracking-wide text-foreground/75 transition-colors hover:text-brand"
+              className="nav-link whitespace-nowrap font-display text-[13px] tracking-[0.06em] text-foreground/80 transition-colors hover:text-brand xl:text-sm"
               aria-expanded={moreOpen}
               aria-haspopup="true"
               onClick={() => setMoreOpen((v) => !v)}
@@ -86,7 +86,7 @@ export function SiteHeader() {
                   <Link
                     key={item.key}
                     href={item.href}
-                    className="block px-4 py-2 font-ui text-sm text-foreground/80 hover:bg-surface hover:text-brand"
+                    className="block px-4 py-2 font-display text-[13px] tracking-[0.06em] text-foreground/80 hover:bg-surface hover:text-brand xl:text-sm"
                     onClick={() => setMoreOpen(false)}
                   >
                     {item.key === "privacy" || item.key === "terms"
@@ -103,15 +103,15 @@ export function SiteHeader() {
           <LanguageSwitcher />
           <Link
             href="/consultation"
-            className="btn-interactive border border-brand px-3 py-1.5 text-sm tracking-wide text-brand hover:bg-surface"
+            className="btn-interactive btn-ghost-light inline-flex items-center justify-center px-3 py-1.5 text-sm tracking-wide"
           >
-            {t("consultationShort")}
+            <span className="relative z-10">{t("consultationShort")}</span>
           </Link>
           <Link
             href="/rfq"
-            className="btn-interactive bg-brand px-3 py-1.5 text-sm tracking-wide text-white hover:bg-brand-dark"
+            className="btn-interactive btn-dark inline-flex items-center justify-center px-3 py-1.5 text-sm tracking-wide"
           >
-            {t("rfq")}
+            <span className="relative z-10">{t("rfq")}</span>
           </Link>
         </div>
 
@@ -128,12 +128,12 @@ export function SiteHeader() {
 
       {open ? (
         <div id="mobile-nav" className="border-t border-border bg-white xl:hidden">
-          <nav className="container-site flex flex-col gap-0.5 py-3 font-ui" aria-label="Mobile">
+          <nav className="container-site flex flex-col gap-0.5 py-3" aria-label="Mobile">
             {allNav.map((item) => (
               <Link
                 key={item.key}
                 href={item.href}
-                className="py-2.5 text-sm text-foreground/85"
+                className="py-2.5 font-display text-[15px] tracking-[0.05em] text-foreground/85"
                 onClick={() => setOpen(false)}
               >
                 {item.key === "privacy" || item.key === "terms"
@@ -141,21 +141,21 @@ export function SiteHeader() {
                   : t(item.key)}
               </Link>
             ))}
-            <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-border pt-3">
+            <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-border pt-3 font-ui">
               <LanguageSwitcher />
               <Link
                 href="/consultation"
-                className="border border-brand px-3 py-2 text-sm text-brand"
+                className="btn-interactive btn-ghost-light inline-flex items-center justify-center px-3 py-2 text-sm tracking-wide"
                 onClick={() => setOpen(false)}
               >
-                {t("consultation")}
+                <span className="relative z-10">{t("consultation")}</span>
               </Link>
               <Link
                 href="/rfq"
-                className="bg-brand px-3 py-2 text-sm text-white"
+                className="btn-interactive btn-dark inline-flex items-center justify-center px-3 py-2 text-sm tracking-wide"
                 onClick={() => setOpen(false)}
               >
-                {t("rfq")}
+                <span className="relative z-10">{t("rfq")}</span>
               </Link>
             </div>
           </nav>
