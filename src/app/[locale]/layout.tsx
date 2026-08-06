@@ -47,8 +47,12 @@ export async function generateMetadata({ params }: Props) {
         ? "Socio de soluciones industriales para proyectos de manufactura en China y Asia."
         : "Industrial Solutions Partner for manufacturing projects across China and Asia.",
     icons: {
-      icon: [{ url: "/favicon.ico" }, { url: "/icon.png", type: "image/png" }],
-      apple: [{ url: "/apple-touch-icon.png" }],
+      icon: [
+        { url: "/icon.png", type: "image/png", sizes: "192x192" },
+        { url: "/favicon.ico", sizes: "32x32" },
+      ],
+      apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+      shortcut: ["/icon.png"],
     },
   };
 }
